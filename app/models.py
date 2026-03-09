@@ -125,6 +125,7 @@ class User(Base):
     email_confirmed_at = Column(DateTime, nullable=True)
     show_no_subtitles = Column(Boolean, default=False)
     prioritize_ass_subtitles = Column(Boolean, default=False)
+    prioritize_forced_subtitles = Column(Boolean, default=False)
     provider_credentials = Column(MutableDict.as_mutable(JSONType), nullable=True, default=dict)
     last_login_at = Column(DateTime)
     current_login_at = Column(DateTime)
@@ -337,6 +338,7 @@ class Subtitle(Base):
     version_info = Column(Text, nullable=True)
     source_type = Column(String(50), nullable=False, default='community', index=True)
     source_metadata = Column(MutableDict.as_mutable(JSONType), nullable=True)
+    forced = Column(Boolean, default=False)
 
     uploader = relationship('User', back_populates='uploaded_subtitles')
     user_votes = relationship('SubtitleVote', back_populates='subtitle')
@@ -349,7 +351,7 @@ class UserActivity(Base):
     __tablename__ = 'user_activity'
     id = Column(GUID(), primary_key=True, default=uuid.uuid4)
     user_id = Column(Integer, ForeignKey('users.id'), nullable=False, index=True)
-    content_id = Column(String(500), nullable=False, index=True)
+    content_id = Column(String(512), nullable=False, index=True)
     content_type = Column(String(20), nullable=False)
     timestamp = Column(DateTime, default=datetime.datetime.utcnow, index=True)
     video_hash = Column(String(50), nullable=True)

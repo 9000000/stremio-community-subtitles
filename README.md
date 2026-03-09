@@ -1,6 +1,6 @@
 # Stremio Community Subtitles Addon
 
-![Version](https://img.shields.io/badge/version-0.6.3-blue.svg)
+![Version](https://img.shields.io/badge/version-0.6.5-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)
 
@@ -28,16 +28,12 @@ Every subtitle you upload helps build a community database that benefits all use
   - your provider selections
   - your votes
 
-### ✅ New in 0.6.0 — Performance Improvements
+### ✅ New in 0.6.5 — Internationalization
 
-Major performance upgrade with migration to async architecture:
+Multi-language interface support with community translations:
 
-- **Async Framework Migration** – Migrated from Flask+gevent to Quart+Hypercorn with full async/await support
-- **Async HTTP Client** – Replaced synchronous requests with aiohttp for non-blocking I/O
-- **Parallel Language Processing** – Multiple preferred languages are now processed simultaneously
-- **Faster Response Times** – Significantly reduced latency for subtitle requests
-
-**Note:** SubDL and Subsource providers may experience slow response times. If content loading takes longer than expected, it's likely due to these external services. Consider disabling them in account settings if performance is critical.
+- **🌐 Interface Translation System** – Full internationalization support with 15 languages
+- **🤝 Help Us Translate!** – We need your help to translate the interface to other languages. Join us on [Crowdin](https://crowdin.com/project/stremio-community-subtitles) to contribute translations for Spanish, French, German, Italian, Portuguese, Russian, Japanese, Chinese, Turkish, Arabic, Hebrew, Vietnamese, and more!
 
 ---
 
@@ -105,6 +101,29 @@ Read the privacy policy here:
 - You (and others) can instantly use them on any device
 - You can also "link" provider subtitles to the correct video version
 - Everyone benefits from what the community uploads and links
+
+## 🌐 Translations
+
+**We need your help!** The interface translation system is ready, but we need community translators.
+
+👉 **[Join us on Crowdin](https://crowdin.com/project/stremio-community-subtitles)** to help translate the interface!
+
+**Translation Status:**
+- 🇬🇧 English — ✅ Complete (base language)
+- 🇵🇱 Polski (Polish) — ✅ Complete
+- 🇵🇹 Português (Portuguese) — ✅ Complete
+- 🇧🇷 Português (BR) — ✅ Complete
+- 🇸🇦 العربية (Arabic) — ✅ Complete
+- 🇻🇳 Tiếng Việt (Vietnamese) — ✅ Complete
+- 🇪🇸 Español (Spanish) — 🔄 Help needed
+- 🇫🇷 Français (French) — 🔄 Help needed
+- 🇩🇪 Deutsch (German) — 🔄 Help needed
+- 🇮🇹 Italiano (Italian) — 🔄 Help needed
+- 🇷🇺 Русский (Russian) — 🔄 Help needed
+- 🇯🇵 日本語 (Japanese) — 🔄 Help needed
+- 🇨🇳 中文 (Chinese) — 🔄 Help needed
+- 🇹🇷 Türkçe (Turkish) — 🔄 Help needed
+- 🇮🇱 עברית (Hebrew) — 🔄 Help needed
 
 ## 🤝 Support
 

@@ -1,0 +1,1799 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: stremio-community-subtitles\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-02-17 13:49+0100\n"
+"PO-Revision-Date: 2026-02-19 01:49\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: stremio-community-subtitles\n"
+"X-Crowdin-Project-ID: 872640\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: messages.pot\n"
+"X-Crowdin-File-ID: 4\n"
+"Language: it_IT\n"
+
+#: app/email.py:125
+msgid "Stremio Community Subtitles - Confirm Your Email"
+msgstr "Stremio Community Subtitles - Conferma la tua email"
+
+#: app/email.py:135
+msgid "Stremio Community Subtitles - Reset Your Password"
+msgstr "Stremio Community Subtitles - Reimposta la password"
+
+#: app/forms.py:12 app/forms.py:20 app/forms.py:134
+msgid "Email"
+msgstr "Email"
+
+#: app/forms.py:13 app/forms.py:21
+msgid "Password"
+msgstr "Password"
+
+#: app/forms.py:14
+msgid "Remember Me"
+msgstr "Ricordami"
+
+#: app/forms.py:15
+msgid "Sign In"
+msgstr "Accedi"
+
+#: app/forms.py:19
+msgid "Username"
+msgstr "Nome utente"
+
+#: app/forms.py:22 app/forms.py:140
+msgid "Confirm Password"
+msgstr "Conferma password"
+
+#: app/forms.py:23 app/forms.py:145
+msgid "Preferred Subtitle Languages"
+msgstr "Lingue sottotitoli preferite"
+
+#: app/forms.py:24 templates/base.html:96 templates/main/index.html:14
+msgid "Register"
+msgstr "Registrati"
+
+#: app/forms.py:49
+msgid "Subtitle File (.srt, .sub, .txt, .ass, .ssa)"
+msgstr "File sottotitoli (.srt, .sub, .txt, .ass, .ssa)"
+
+#: app/forms.py:51
+msgid "Only .srt, .sub, .txt, .ass, .ssa files allowed!"
+msgstr "Consentiti solo file .srt, .sub, .txt, .ass, .ssa!"
+
+#: app/forms.py:53
+msgid "Subtitle Language"
+msgstr "Lingua sottotitoli"
+
+#: app/forms.py:54
+msgid "Encoding"
+msgstr "Codifica"
+
+#: app/forms.py:55
+msgid "FPS (Frames Per Second)"
+msgstr "FPS (frame al secondo)"
+
+#: app/forms.py:56
+msgid "Auto"
+msgstr "Auto"
+
+#: app/forms.py:59
+msgid "Author (Optional)"
+msgstr "Autore (opzionale)"
+
+#: app/forms.py:60
+msgid "Version/Sync Info (Optional)"
+msgstr "Informazioni versione/sincronizzazione (Opzionale)"
+
+#: app/forms.py:61 templates/_provider_subtitle_list_item.html:43
+#: templates/_subtitle_list_item.html:51
+msgid "Forced/Foreign Parts Only"
+msgstr "Solo parti forced/straniere"
+
+#: app/forms.py:64
+msgid "Content ID"
+msgstr "ID contenuto"
+
+#: app/forms.py:66
+msgid "IMDB ID (e.g., tt1234567) or Kitsu ID (e.g., kitsu:12345)"
+msgstr "ID IMDB (es. tt1234567) o ID Kitsu (es. kitsu:12345)"
+
+#: app/forms.py:67
+msgid "Content Type"
+msgstr "Tipo di contenuto"
+
+#: app/forms.py:68 templates/main/content_detail.html:30
+#: templates/main/dashboard.html:63 templates/main/upload_subtitle.html:121
+msgid "Movie"
+msgstr "Film"
+
+#: app/forms.py:68
+msgid "TV Series"
+msgstr "Serie TV"
+
+#: app/forms.py:70
+msgid "Season Number"
+msgstr "Numero stagione"
+
+#: app/forms.py:72
+msgid "Required for TV series (default: 1)"
+msgstr "Richiesto per le serie TV (predefinito: 1)"
+
+#: app/forms.py:73
+msgid "Episode Number"
+msgstr "Numero episodio"
+
+#: app/forms.py:75
+msgid "Required for TV series"
+msgstr "Richiesto per serie TV"
+
+#: app/forms.py:77 templates/main/upload_subtitle.html:4
+#: templates/main/upload_subtitle.html:11
+#: templates/main/upload_subtitle.html:21
+msgid "Upload Subtitle"
+msgstr "Carica sottotitoli"
+
+#: app/forms.py:117
+msgid "Content ID must be either IMDB ID (starting with \"tt\") or Kitsu ID (format \"kitsu:12345\")"
+msgstr "L'ID del contenuto deve essere l'ID IMDB (a partire da \"tt\") o l'ID Kitsu (formato \"kitsu:12345\")"
+
+#: app/forms.py:123
+msgid "Episode number is required for TV series"
+msgstr "Il numero dell'episodio è richiesto per le serie TV"
+
+#: app/forms.py:127
+msgid "Current Password"
+msgstr "Password attuale"
+
+#: app/forms.py:128 app/forms.py:139
+msgid "New Password"
+msgstr "Nuova password"
+
+#: app/forms.py:129
+msgid "Confirm New Password"
+msgstr "Conferma nuova password"
+
+#: app/forms.py:130 templates/auth/change_password.html:11
+#: templates/main/account_settings.html:157
+msgid "Change Password"
+msgstr "Cambia password"
+
+#: app/forms.py:135
+msgid "Request Password Reset"
+msgstr "Chiedi di reimpostare la password"
+
+#: app/forms.py:141 templates/auth/reset_password_request.html:11
+#: templates/email/reset_password.html:54
+msgid "Reset Password"
+msgstr "Reimposta password"
+
+#: app/forms.py:146
+msgid "Update Preference"
+msgstr "Aggiorna preferenze"
+
+#: app/forms.py:150
+msgid "Use OpenSubtitles Integration"
+msgstr "Utilizza integrazione OpenSubtitles"
+
+#: app/forms.py:152 templates/providers/opensubtitles_form.html:3
+msgid "OpenSubtitles Username"
+msgstr "Nome utente OpenSubtitles"
+
+#: app/forms.py:154
+msgid "Your OpenSubtitles.com Username"
+msgstr "Il tuo nome utente su OpenSubtitles.com"
+
+#: app/forms.py:158 templates/providers/opensubtitles_form.html:12
+msgid "OpenSubtitles Password"
+msgstr "Password OpenSubtitles"
+
+#: app/forms.py:160
+msgid "Your OpenSubtitles.com Password"
+msgstr "La tua password su OpenSubtitles.com"
+
+#: app/forms.py:163
+msgid "Save OpenSubtitles Settings"
+msgstr "Salva impostazioni di OpenSubtitles"
+
+#: app/routes/auth.py:33
+msgid "Invalid email or password"
+msgstr "Email o password non validi"
+
+#: app/routes/auth.py:37
+msgid "Please confirm your email address before logging in."
+msgstr "Conferma il tuo indirizzo email prima di accedere."
+
+#: app/routes/auth.py:152
+msgid "A confirmation email has been sent."
+msgstr "È stata inviata un'email di conferma."
+
+#: app/routes/auth.py:155
+msgid "Registration successful, but failed to send confirmation email. Please contact support."
+msgstr "Registrazione riuscita, ma non è stato possibile inviare email di conferma. Contatta l'assistenza."
+
+#: app/routes/auth.py:157
+msgid "Registration successful! You can now log in."
+msgstr "Registrazione riuscita! Ora puoi effettuare l'accesso."
+
+#: app/routes/auth.py:164
+msgid "An error occurred during registration."
+msgstr "Si è verificato un errore durante la registrazione."
+
+#: app/routes/auth.py:170
+msgid "An unexpected error occurred."
+msgstr "Si è verificato un errore imprevisto."
+
+#: app/routes/auth.py:185
+msgid "Current password is incorrect"
+msgstr "La password attuale non è corretta"
+
+#: app/routes/auth.py:191
+msgid "Your password has been updated"
+msgstr "La tua password è stata aggiornata"
+
+#: app/routes/auth.py:211
+msgid "Check your email for instructions"
+msgstr "Controlla la tua email per le istruzioni"
+
+#: app/routes/auth.py:214
+msgid "Failed to send reset email. Please try again later."
+msgstr "Impossibile inviare l'email di reimpostazione. Riprova più tardi."
+
+#: app/routes/auth.py:216
+msgid "If that email is in our database, we sent a reset link"
+msgstr "Se l'email è nel nostro database, abbiamo inviato un link di reset"
+
+#: app/routes/auth.py:237
+msgid "Email is required."
+msgstr "L'email è obbligatoria."
+
+#: app/routes/auth.py:247
+msgid "A new confirmation email has been sent."
+msgstr "È stata inviata una nuova email di conferma."
+
+#: app/routes/auth.py:250
+msgid "Failed to send confirmation email. Please try again later."
+msgstr "Impossibile inviare l'email di conferma. Riprova più tardi."
+
+#: app/routes/auth.py:252
+msgid "If that email is in our database and not confirmed, we sent a link."
+msgstr "Se l'email è nel nostro database e non è confermata, abbiamo inviato un link."
+
+#: app/routes/auth.py:264
+msgid "The confirmation link is invalid or has expired."
+msgstr "Il link di conferma non è valido o è scaduto."
+
+#: app/routes/auth.py:270 app/routes/auth.py:299
+msgid "User not found."
+msgstr "Utente non trovato."
+
+#: app/routes/auth.py:274
+msgid "Your email has already been confirmed."
+msgstr "La tua email è già stata confermata."
+
+#: app/routes/auth.py:282
+msgid "Your email has been confirmed. You can now log in."
+msgstr "La tua email è stata confermata. Ora puoi effettuare l'accesso."
+
+#: app/routes/auth.py:293
+msgid "The reset link is invalid or has expired."
+msgstr "Il link di reset non è valido o è scaduto."
+
+#: app/routes/auth.py:306
+msgid "Your password has been reset."
+msgstr "La tua password è stata reimpostata."
+
+#: app/routes/content.py:206
+msgid "An error occurred while searching for subtitles."
+msgstr "Si è verificato un errore durante la ricerca dei sottotitoli."
+
+#: app/routes/main.py:23 app/routes/main.py:90
+msgid "Please log in to access this page."
+msgstr "Esegui l’accesso per entrare in questa pagina."
+
+#: app/routes/main.py:174
+msgid "Preferred languages updated successfully!"
+msgstr "Lingue preferite aggiornate con successo!"
+
+#: app/routes/main.py:179
+msgid "Failed to update language."
+msgstr "Impossibile aggiornare la lingua."
+
+#: app/routes/main.py:211
+msgid "Activity record not found."
+msgstr "Registro attività non trovato."
+
+#: app/routes/main.py:221
+msgid "You do not have permission to delete this activity record."
+msgstr "Non hai i permessi per eliminare questa attività."
+
+#: app/routes/main.py:227
+msgid "Activity record deleted successfully."
+msgstr "Registro attività eliminato con successo."
+
+#: app/routes/main.py:231
+msgid "Error deleting activity record. Please try again."
+msgstr "Errore durante l'eliminazione del registro attività. Riprova."
+
+#: app/routes/main.py:249
+msgid "Username confirmation does not match. Account not deleted."
+msgstr "La conferma del nome utente non corrisponde. Account non eliminato."
+
+#: app/routes/main.py:270
+msgid "Your account has been permanently deleted."
+msgstr "Il tuo account è stato eliminato definitivamente."
+
+#: app/routes/main.py:276
+msgid "Error deleting account. Please try again or contact support."
+msgstr "Errore nell'eliminazione dell'account. Riprova o contatta l'assistenza."
+
+#: app/routes/providers.py:22 app/routes/providers.py:75
+#, python-format
+msgid "Provider %(name)s not found"
+msgstr "Provider %(name)s non trovato"
+
+#: app/routes/providers.py:49
+#, python-format
+msgid "%(name)s settings updated!"
+msgstr "Impostazioni %(name)s aggiornate!"
+
+#: app/routes/providers.py:60
+#, python-format
+msgid "Successfully connected to %(name)s!"
+msgstr "Connesso con successo a %(name)s!"
+
+#: app/routes/providers.py:62
+#, python-format
+msgid "Authentication failed: %(error)s"
+msgstr "Autenticazione fallita: %(error)s"
+
+#: app/routes/providers.py:64
+#, python-format
+msgid "Error connecting to %(name)s: %(error)s"
+msgstr "Errore nella connessione a %(name)s: %(error)s"
+
+#: app/routes/providers.py:91
+#, python-format
+msgid "Disconnected from %(name)s"
+msgstr "Disconnesso da %(name)s"
+
+#: app/routes/providers.py:93
+#, python-format
+msgid "Error disconnecting: %(error)s"
+msgstr "Errore nella disconnessione: %(error)s"
+
+#: app/routes/providers.py:119 app/routes/providers.py:202
+msgid "Missing required parameters"
+msgstr "Parametri necessari mancanti"
+
+#: app/routes/providers.py:164
+msgid "Subtitle selected successfully!"
+msgstr "Sottotitoli selezionati con successo!"
+
+#: app/routes/providers.py:167
+#, python-format
+msgid "Error selecting subtitle: %(error)s"
+msgstr "Errore nella selezione dei sottotitoli: %(error)s"
+
+#: app/routes/providers.py:189
+msgid "Cannot link subtitle: video has no hash"
+msgstr "Impossibile collegare i sottotitoli: il video non ha hash"
+
+#: app/routes/providers.py:225
+msgid "This subtitle is already linked to this video version"
+msgstr "Questi sottotitoli sono già collegati a questa versione del video"
+
+#: app/routes/providers.py:312
+msgid "Subtitle successfully linked to this video version!"
+msgstr "Sottotitoli collegati con successo a questa versione del video!"
+
+#: app/routes/providers.py:316
+msgid "Error linking subtitle"
+msgstr "Errore nel collegamento dei sottotitoli"
+
+#: app/routes/subtitles.py:730
+msgid "Content ID must be either IMDB ID (starting with \"tt\") or Kitsu ID (format \"kitsu:12345\") or MAL ID (format \"mal:12345\")"
+msgstr "L'ID contenuto deve essere l'ID IMDB (comincia con \"tt\") o l'ID MAL (formato \"mal:12345\")"
+
+#: app/routes/subtitles.py:740
+msgid "Episode number is required for series"
+msgstr "Il numero dell'episodio è richiesto per le serie TV"
+
+#: app/routes/subtitles.py:831
+msgid "These subtitles already exist for this content and video version."
+msgstr "Questi sottotitoli esistono già per questo contenuto e questa versione del video."
+
+#: app/routes/subtitles.py:862
+msgid "Server error: Cloudinary storage is not properly configured."
+msgstr "Errore del server: l'archivio cloud non è configurato correttamente."
+
+#: app/routes/subtitles.py:888
+#, python-format
+msgid "Error processing/uploading subtitle: %(error)s"
+msgstr "Errore elaborazione/caricamento sottotitoli: %(error)s"
+
+#: app/routes/subtitles.py:897
+msgid "Internal error: Subtitle path not determined."
+msgstr "Errore interno: Percorso dei sottotitoli non determinato."
+
+#: app/routes/subtitles.py:956
+msgid "Subtitle uploaded and selected successfully!"
+msgstr "Sottotitoli caricati e selezionati con successo!"
+
+#: app/routes/subtitles.py:960
+msgid "Subtitle uploaded, but failed to auto-select."
+msgstr "Sottotitoli caricati, ma non è stato possibile selezionare automaticamente."
+
+#: app/routes/subtitles.py:972
+msgid "Error uploading subtitle. Please try again."
+msgstr "Errore nel caricamento dei sottotitoli. Riprova."
+
+#: app/routes/subtitles.py:1025
+msgid "Subtitle selection updated."
+msgstr "Selezione dei sottotitoli aggiornata."
+
+#: app/routes/subtitles.py:1029
+msgid "Error updating subtitle selection."
+msgstr "Errore nell'aggiornamento della selezione dei sottotitoli."
+
+#: app/routes/subtitles.py:1051
+msgid "Voting is not available for this type of subtitle."
+msgstr "Il voto non è disponibile per questo tipo di sottotitoli."
+
+#: app/routes/subtitles.py:1066 templates/main/content_detail.html:328
+#: templates/main/my_subtitles.html:142
+#: templates/main/selected_subtitles.html:168
+#: templates/main/voted_subtitles.html:140
+msgid "Vote removed."
+msgstr "Voto rimosso."
+
+#: app/routes/subtitles.py:1071 templates/main/content_detail.html:330
+#: templates/main/my_subtitles.html:144
+#: templates/main/selected_subtitles.html:170
+#: templates/main/voted_subtitles.html:142
+msgid "Vote updated."
+msgstr "Voto aggiornato."
+
+#: app/routes/subtitles.py:1077 templates/main/content_detail.html:329
+#: templates/main/my_subtitles.html:143
+#: templates/main/selected_subtitles.html:169
+#: templates/main/voted_subtitles.html:141
+msgid "Vote recorded."
+msgstr "Voto registrato."
+
+#: app/routes/subtitles.py:1088 templates/main/content_detail.html:331
+#: templates/main/my_subtitles.html:145
+#: templates/main/selected_subtitles.html:171
+#: templates/main/voted_subtitles.html:143
+msgid "Error processing vote."
+msgstr "Errore nell'elaborazione del voto."
+
+#: app/routes/subtitles.py:1106
+msgid "You do not have permission to delete this selection."
+msgstr "Non hai i permessi per eliminare questa selezione."
+
+#: app/routes/subtitles.py:1112
+msgid "Selection deleted successfully."
+msgstr "Selezione eliminata con successo."
+
+#: app/routes/subtitles.py:1116
+msgid "Error deleting selection."
+msgstr "Errore nell'eliminazione della selezione."
+
+#: app/routes/subtitles.py:1149
+msgid "All subtitle selections for this content have been reset."
+msgstr "Tutte le selezioni di sottotitoli per questo contenuto sono state reimpostate."
+
+#: app/routes/subtitles.py:1155
+msgid "No selections to reset for this content."
+msgstr "Nessuna selezione da reimpostare per questo contenuto."
+
+#: app/routes/subtitles.py:1390
+msgid "You do not have permission to delete this subtitle."
+msgstr "Non hai i permessi per eliminare questi sottotitoli."
+
+#: app/routes/subtitles.py:1454
+msgid "Subtitle deleted successfully."
+msgstr "Sottotitoli eliminati con successo."
+
+#: app/routes/subtitles.py:1458
+msgid "Error deleting subtitle."
+msgstr "Errore nell'eliminazione dei sottotitoli."
+
+#: app/routes/subtitles.py:1479
+msgid "You do not have permission to download subtitles."
+msgstr "Non hai i permessi per scaricare i sottotitoli."
+
+#: app/routes/subtitles.py:1510
+#, python-format
+msgid "Admin's %(provider)s account is not configured/active; cannot download this linked subtitle."
+msgstr "L'account %(provider)s dell'amministratore non è configurato/attivo; non è possibile scaricare questi sottotitoli associati."
+
+#: app/routes/subtitles.py:1525 app/routes/subtitles.py:1535
+#, python-format
+msgid "Error downloading from %(provider)s: %(error)s"
+msgstr "Errore nel download da %(provider)s: %(error)s"
+
+#: app/routes/subtitles.py:1532
+#, python-format
+msgid "%(provider)s authentication expired. Please log in again in account settings."
+msgstr "L'autenticazione %(provider)s è scaduta. Effettua nuovamente l'accesso nelle impostazioni dell'account."
+
+#: app/routes/subtitles.py:1561
+msgid "Target video hash is missing."
+msgstr "Hash video di destinazione mancante."
+
+#: app/routes/subtitles.py:1564
+msgid "Activity ID is missing."
+msgstr "ID attività mancante."
+
+#: app/routes/subtitles.py:1570
+msgid "Invalid Activity ID format."
+msgstr "Formato ID attività non valido."
+
+#: app/routes/subtitles.py:1589
+msgid "Content ID mismatch between subtitle and activity."
+msgstr "ID contenuto non corrispondente tra sottotitoli e attività."
+
+#: app/routes/subtitles.py:1593
+msgid "This operation is not applicable to provider-linked entries in this manner."
+msgstr "Questa operazione non è applicabile alle voci associate al provider in questo modo."
+
+#: app/routes/subtitles.py:1596
+msgid "Original subtitle does not have a file path, cannot mark as compatible."
+msgstr "I sottotitoli originali non hanno un percorso file, non è possibile contrassegnare come compatibile."
+
+#: app/routes/subtitles.py:1614
+msgid "A compatible subtitle entry for this hash already exists. Selecting it."
+msgstr "Esiste già una voce di sottotitoli compatibile per questo hash. Selezione in corso."
+
+#: app/routes/subtitles.py:1633
+msgid "Subtitle marked as compatible with the current video version."
+msgstr "Sottotitoli contrassegnati come compatibili con la versione video corrente."
+
+#: app/routes/subtitles.py:1674
+msgid "An error occurred."
+msgstr "Si è verificato un errore."
+
+#: app/routes/utils.py:908
+msgid "OpenSubtitles authentication expired. Please log in again in account settings."
+msgstr "Autenticazione OpenSubtitles scaduta. Effettua nuovamente l'accesso nelle impostazioni dell'account."
+
+#: templates/_pagination.html:6
+msgid "Previous"
+msgstr "Precedente"
+
+#: templates/_pagination.html:20
+msgid "Next"
+msgstr "Successivo"
+
+#: templates/_provider_status.html:16
+msgid "Connected"
+msgstr "Connesso"
+
+#: templates/_provider_status.html:20
+msgid "Not Connected"
+msgstr "Non connesso"
+
+#: templates/_provider_status.html:24
+msgid "Hash Matching"
+msgstr "Corrispondenza hash"
+
+#: templates/_provider_status.html:34
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: templates/_provider_status.html:39
+#, python-format
+msgid "Disconnect from %(name)s?"
+msgstr "Disconnettere da %(name)s?"
+
+#: templates/_provider_status.html:42
+msgid "Disconnect"
+msgstr "Disconnetti"
+
+#: templates/_provider_status.html:49 templates/_provider_status.html:73
+msgid "Connect"
+msgstr "Connetti"
+
+#: templates/_provider_status.html:62
+#, python-format
+msgid "Connect to %(name)s"
+msgstr "Connettiti a %(name)s"
+
+#: templates/_provider_status.html:71 templates/_provider_status.html:119
+#: templates/main/account_settings.html:204
+msgid "Cancel"
+msgstr "Annulla"
+
+#: templates/_provider_status.html:87
+#, python-format
+msgid "%(name)s Settings"
+msgstr "Impostazioni %(name)s"
+
+#: templates/_provider_status.html:104 templates/providers/subdl_form.html:15
+#: templates/providers/subsource_form.html:14
+msgid "Try to provide ASS/SSA format"
+msgstr "Cerca di fornire il formato ASS/SSA"
+
+#: templates/_provider_status.html:107
+msgid "Enable this to always offer ASS format option for this provider."
+msgstr "Abilita questa opzione per offrire sempre l'opzione di formato ASS per questo provider."
+
+#: templates/_provider_status.html:114
+msgid "No additional settings available for this provider."
+msgstr "Nessuna impostazione aggiuntiva disponibile per questo provider."
+
+#: templates/_provider_status.html:121
+msgid "Save"
+msgstr "Salva"
+
+#: templates/_provider_subtitle_list_item.html:24
+#: templates/main/selected_subtitles.html:56
+#: templates/main/selected_subtitles.html:68
+#: templates/main/voted_subtitles.html:54
+msgid "Uploader:"
+msgstr "Uploader:"
+
+#: templates/_provider_subtitle_list_item.html:26
+msgid "Rating:"
+msgstr "Valutazione:"
+
+#: templates/_provider_subtitle_list_item.html:29
+msgid "Downloads:"
+msgstr "Download:"
+
+#: templates/_provider_subtitle_list_item.html:34
+#: templates/main/selected_subtitles.html:93
+msgid "Hash Match"
+msgstr "Corrispondenza hash"
+
+#: templates/_provider_subtitle_list_item.html:37
+#: templates/main/selected_subtitles.html:70
+msgid "AI Translated"
+msgstr "Traduzione AI"
+
+#: templates/_provider_subtitle_list_item.html:40
+msgid "Hearing Impaired"
+msgstr "Non udenti"
+
+#: templates/_provider_subtitle_list_item.html:50
+#: templates/_subtitle_list_item.html:72
+msgid "Selected"
+msgstr "Selezionati"
+
+#: templates/_provider_subtitle_list_item.html:62
+msgid "Link this subtitle to the current video version for the community"
+msgstr "Collega questi sottotitoli alla versione del video attuale per la community"
+
+#: templates/_provider_subtitle_list_item.html:63
+#: templates/_subtitle_list_item.html:89
+msgid "Link"
+msgstr "Collega"
+
+#: templates/_provider_subtitle_list_item.html:78
+#: templates/_subtitle_list_item.html:77
+msgid "Select"
+msgstr "Seleziona"
+
+#: templates/_subtitle_list_item.html:28
+#, python-format
+msgid "Sourced from %(provider)s by %(user)s"
+msgstr "Preso da %(provider)s a cura di %(user)s"
+
+#: templates/_subtitle_list_item.html:30
+#, python-format
+msgid "Sourced from %(source)s"
+msgstr "Preso da %(source)s"
+
+#: templates/_subtitle_list_item.html:43
+#, python-format
+msgid "Video Hash: %(hash)s"
+msgstr "Hash video: %(hash)s"
+
+#: templates/_subtitle_list_item.html:45
+msgid "Matches Current Video"
+msgstr "Corrisponde al video attuale"
+
+#: templates/_subtitle_list_item.html:45
+msgid "Different Video Version"
+msgstr "Versione video diversa"
+
+#: templates/_subtitle_list_item.html:48
+msgid "No Hash Specific"
+msgstr "Nessun hash specifico"
+
+#: templates/_subtitle_list_item.html:60 templates/main/my_subtitles.html:74
+#: templates/main/selected_subtitles.html:101
+#: templates/main/voted_subtitles.html:73
+#: templates/main/voted_subtitles.html:79
+msgid "Upvote"
+msgstr "Voto positivo"
+
+#: templates/_subtitle_list_item.html:63 templates/main/my_subtitles.html:77
+#: templates/main/selected_subtitles.html:104
+#: templates/main/voted_subtitles.html:73
+#: templates/main/voted_subtitles.html:82
+msgid "Downvote"
+msgstr "Voto negativo"
+
+#: templates/_subtitle_list_item.html:88
+#, python-format
+msgid "Mark this subtitle as compatible with the current video version (%(hash)s...)"
+msgstr "Segna questo sottotitolo come compatibile con la versione del video attuale (%(hash)s...)"
+
+#: templates/_subtitle_list_item.html:103
+msgid "Are you sure you want to delete this subtitle? This action cannot be undone."
+msgstr "Si è sicuri di voler eliminare questo file? Questa azione non può essere annullata."
+
+#: templates/_subtitle_list_item.html:106
+msgid "Delete Subtitle"
+msgstr "Elimina sottotitoli"
+
+#: templates/base.html:53 templates/main/dashboard.html:3
+#: templates/main/upload_subtitle.html:18
+msgid "Dashboard"
+msgstr "Pannello"
+
+#: templates/base.html:56 templates/main/account_settings.html:145
+#: templates/main/dashboard.html:101
+msgid "Install Addon"
+msgstr "Installa addon"
+
+#: templates/base.html:76
+msgid "Upload Subtitles"
+msgstr "Carica sottotitoli"
+
+#: templates/base.html:84 templates/main/my_subtitles.html:4
+#: templates/main/my_subtitles.html:9
+msgid "My Subtitles"
+msgstr "I miei sottotitoli"
+
+#: templates/base.html:86 templates/main/account_settings.html:4
+#: templates/main/account_settings.html:9
+msgid "Account Settings"
+msgstr "Impostazioni account"
+
+#: templates/base.html:88
+msgid "Logout"
+msgstr "Disconnettiti"
+
+#: templates/auth/login.html:11 templates/base.html:93
+#: templates/main/index.html:13
+msgid "Login"
+msgstr "Accedi"
+
+#: templates/base.html:120
+msgid "Like my addon? Consider"
+msgstr "Ti piace il mio addon? Considera"
+
+#: templates/base.html:120
+msgid "buying me a coffee"
+msgstr "di offrirmi un caffè"
+
+#: templates/auth/change_password.html:26 templates/auth/reset_password.html:27
+msgid "Password Tips"
+msgstr "Consigli sulla password"
+
+#: templates/auth/change_password.html:28 templates/auth/reset_password.html:29
+msgid "Use at least 8 characters"
+msgstr "Usa almeno 8 caratteri"
+
+#: templates/auth/change_password.html:29 templates/auth/reset_password.html:30
+msgid "Include uppercase and lowercase letters"
+msgstr "Includi lettere maiuscole e minuscole"
+
+#: templates/auth/change_password.html:30 templates/auth/reset_password.html:31
+msgid "Add numbers and special characters"
+msgstr "Aggiungi numeri e caratteri speciali"
+
+#: templates/auth/change_password.html:31 templates/auth/reset_password.html:32
+msgid "Avoid using personal information"
+msgstr "Evitare di utilizzare informazioni personali"
+
+#: templates/auth/change_password.html:40
+msgid "Back to Account Settings"
+msgstr "Torna alle impostazioni dell'account"
+
+#: templates/auth/login.html:26
+msgid "Forgot your password?"
+msgstr "Hai dimenticato la password?"
+
+#: templates/auth/login.html:29
+msgid "Didn't receive confirmation email?"
+msgstr "Non hai ricevuto l'email di conferma?"
+
+#: templates/auth/login.html:32 templates/providers/opensubtitles_form.html:7
+msgid "Don't have an account?"
+msgstr "Non hai un account?"
+
+#: templates/auth/login.html:32 templates/providers/opensubtitles_form.html:7
+msgid "Register here"
+msgstr "Registrati qui"
+
+#: templates/auth/register.html:11
+msgid "Create an Account"
+msgstr "Crea un account"
+
+#: templates/auth/register.html:28
+msgid "Already have an account?"
+msgstr "Hai già un account?"
+
+#: templates/auth/register.html:28
+#: templates/auth/reset_password_request.html:26
+msgid "Login here"
+msgstr "Accedi qui"
+
+#: templates/auth/register.html:40
+msgid "Why Register?"
+msgstr "Perché registrarsi?"
+
+#: templates/auth/register.html:46
+msgid "Get your personal Stremio addon installation link"
+msgstr "Ottieni il tuo link personale di installazione addon per Stremio"
+
+#: templates/auth/register.html:50
+msgid "Upload and share subtitles with the community"
+msgstr "Carica e condividi i sottotitoli con la community"
+
+#: templates/auth/register.html:54
+msgid "Vote on subtitle quality to help others find the best translations"
+msgstr "Vota la qualità dei sottotitoli per aiutare gli altri a trovare le migliori traduzioni"
+
+#: templates/auth/register.html:58
+msgid "Track your subtitle history and contributions"
+msgstr "Traccia la cronologia dei sottotitoli e i contributi"
+
+#: templates/auth/resend_confirmation.html:10
+#: templates/auth/resend_confirmation.html:26
+msgid "Resend Confirmation Email"
+msgstr "Reinvia email di conferma"
+
+#: templates/auth/resend_confirmation.html:13
+msgid "If you didn't receive the confirmation email or the link has expired, you can request a new one."
+msgstr "Se non hai ricevuto l'email di conferma o il link è scaduto, puoi richiederne una nuova."
+
+#: templates/auth/resend_confirmation.html:19
+msgid "Email Address"
+msgstr "Indirizzo email"
+
+#: templates/auth/resend_confirmation.html:21
+msgid "Enter the email address you used to register."
+msgstr "Inserisci l'indirizzo email che hai usato per registrarti."
+
+#: templates/auth/resend_confirmation.html:32
+msgid "Back to Login"
+msgstr "Torna all'accesso"
+
+#: templates/auth/reset_password.html:11
+msgid "Set New Password"
+msgstr "Imposta una nuova password"
+
+#: templates/auth/reset_password.html:14
+msgid "Please enter your new password."
+msgstr "Inserisci la tua nuova password."
+
+#: templates/auth/reset_password_request.html:14
+msgid "Enter your email address and we'll send you instructions to reset your password."
+msgstr "Inserisci il tuo indirizzo email e ti invieremo le istruzioni per reimpostare la password."
+
+#: templates/auth/reset_password_request.html:26
+msgid "Remember your password?"
+msgstr "Non ricordi la tua password?"
+
+#: templates/email/confirm_email.html:5
+msgid "Confirm Your Email"
+msgstr "Conferma l'email"
+
+#: templates/email/confirm_email.html:50 templates/email/confirm_email.txt:1
+#: templates/email/reset_password.html:50 templates/email/reset_password.txt:1
+#, python-format
+msgid "Hello %(username)s,"
+msgstr "Ciao %(username)s,"
+
+#: templates/email/confirm_email.html:51
+msgid "Thank you for registering with Stremio Community Subtitles! Please confirm your email address by clicking the button below:"
+msgstr "Grazie per esserti registrato a Stremio Community Subtitles! Conferma il tuo indirizzo email cliccando sul pulsante qui sotto:"
+
+#: templates/email/confirm_email.html:54
+msgid "Confirm Email"
+msgstr "Conferma email"
+
+#: templates/email/confirm_email.html:57 templates/email/reset_password.html:57
+msgid "If the button doesn't work, you can also copy and paste the following link into your browser:"
+msgstr "Se il pulsante non funziona, puoi anche copiare e incollare il seguente link nel tuo browser:"
+
+#: templates/email/confirm_email.html:60 templates/email/confirm_email.txt:7
+msgid "This link will expire in 24 hours."
+msgstr "Questo link scadrà tra 24 ore."
+
+#: templates/email/confirm_email.html:62 templates/email/confirm_email.txt:9
+msgid "If you did not register for Stremio Community Subtitles, please ignore this email."
+msgstr "Se non ti sei registrato a Stremio Community Subtitles ignora questa email."
+
+#: templates/email/confirm_email.html:64 templates/email/confirm_email.txt:11
+#: templates/email/reset_password.html:64 templates/email/reset_password.txt:11
+msgid "Best regards,"
+msgstr "Cordiali saluti,"
+
+#: templates/email/confirm_email.html:64 templates/email/confirm_email.txt:12
+#: templates/email/reset_password.html:64 templates/email/reset_password.txt:12
+msgid "The Stremio Community Subtitles Team"
+msgstr "Il team di Stremio Community Subtitles"
+
+#: templates/email/confirm_email.html:67 templates/email/confirm_email.txt:15
+#: templates/email/reset_password.html:67 templates/email/reset_password.txt:15
+msgid "This is an automated message, please do not reply to this email."
+msgstr "Questo è un messaggio automatico, non rispondere a questa email."
+
+#: templates/email/confirm_email.txt:3
+msgid "Thank you for registering with Stremio Community Subtitles! Please confirm your email address by clicking the link below:"
+msgstr "Grazie per esserti registrato a Stremio Community Subtitles! Conferma il tuo indirizzo email cliccando sul pulsante qui sotto:"
+
+#: templates/email/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Reimposta password"
+
+#: templates/email/reset_password.html:51
+msgid "You have requested to reset your password. Please click the button below to set a new password:"
+msgstr "Hai richiesto di reimpostare la password. Fai clic sul pulsante qui sotto per impostare una nuova password:"
+
+#: templates/email/reset_password.html:60 templates/email/reset_password.txt:7
+msgid "This link will expire in 1 hour."
+msgstr "Questo link scadrà tra un'ora."
+
+#: templates/email/reset_password.html:62 templates/email/reset_password.txt:9
+msgid "If you did not request a password reset, please ignore this email and your password will remain unchanged."
+msgstr "Se non hai richiesto il ripristino della password, ignora questa email e la password rimarrà invariata."
+
+#: templates/email/reset_password.txt:3
+msgid "You have requested to reset your password. Please click the link below to set a new password:"
+msgstr "Hai richiesto di reimpostare la password. Fai clic sul pulsante qui sotto per impostare una nuova password:"
+
+#: templates/main/account_settings.html:11
+msgid "Manage your account preferences and settings."
+msgstr "Gestisci le preferenze e le impostazioni del tuo account."
+
+#: templates/main/account_settings.html:20
+msgid "Language Preferences"
+msgstr "Preferenze lingua"
+
+#: templates/main/account_settings.html:30
+msgid "This setting determines which languages will be used to search subtitles by the addon."
+msgstr "Questa impostazione determina quali lingue saranno usate dall'addon per cercare i sottotitoli."
+
+#: templates/main/account_settings.html:40
+msgid "Options"
+msgstr "Opzioni"
+
+#: templates/main/account_settings.html:45
+msgid "Show no subtitles message"
+msgstr "Non mostrare alcun messaggio relativo ai sottotitoli"
+
+#: templates/main/account_settings.html:46
+msgid "When enabled, subtitles entry will always appear in Stremio, even if there are no subtitles available"
+msgstr "Se abilitata, la voce dei sottotitoli apparirà sempre in Stremio, anche se non ci sono sottotitoli disponibili"
+
+#: templates/main/account_settings.html:51
+#: templates/main/account_settings.html:66
+#: templates/main/account_settings.html:81
+msgid "Setting updated successfully"
+msgstr "Impostazioni aggiornate con successo"
+
+#: templates/main/account_settings.html:52
+#: templates/main/account_settings.html:67
+#: templates/main/account_settings.html:82
+msgid "Failed to update setting"
+msgstr "Impossibile aggiornare le impostazioni"
+
+#: templates/main/account_settings.html:53
+#: templates/main/account_settings.html:68
+#: templates/main/account_settings.html:83
+msgid "Error updating setting"
+msgstr "Errore nell'aggiornamento delle impostazioni"
+
+#: templates/main/account_settings.html:60
+msgid "Prioritize .ass subtitles"
+msgstr "Priorità sottotitoli .ass"
+
+#: templates/main/account_settings.html:61
+msgid "When enabled, .ass/.ssa subtitles will appear first in Stremio's subtitle list"
+msgstr "Se abilitato, i sottotitoli .ass/.ssa appariranno prima nella lista dei sottotitoli di Stremio"
+
+#: templates/main/account_settings.html:75
+msgid "Prioritize forced subtitles"
+msgstr "Priorità sottotitoli forced"
+
+#: templates/main/account_settings.html:76
+msgid "When enabled, forced/foreign parts subtitles will be prioritized"
+msgstr "Se abilitato, i sottotitoli delle parti forced/estere saranno prioritari"
+
+#: templates/main/account_settings.html:94
+msgid "Subtitle Providers"
+msgstr "Provider sottotitoli"
+
+#: templates/main/account_settings.html:97
+msgid "Connect to external subtitle providers for enhanced search capabilities."
+msgstr "Connettiti a provider esterni dei sottotitoli per funzionalità di ricerca avanzate."
+
+#: templates/main/account_settings.html:112
+msgid "Account Information"
+msgstr "Informazioni account"
+
+#: templates/main/account_settings.html:117
+msgid "Username:"
+msgstr "Nome utente:"
+
+#: templates/main/account_settings.html:120
+msgid "Email:"
+msgstr "Email:"
+
+#: templates/main/account_settings.html:123
+msgid "Member Since:"
+msgstr "Iscritto dal:"
+
+#: templates/main/account_settings.html:126
+msgid "Current Languages:"
+msgstr "Lingue attuali:"
+
+#: templates/main/account_settings.html:132
+msgid "No languages selected"
+msgstr "Nessuna linguua selezionata"
+
+#: templates/main/account_settings.html:141 templates/main/dashboard.html:97
+msgid "Addon Installation"
+msgstr "Installazione addon"
+
+#: templates/main/account_settings.html:144
+msgid "Need to install your addon in Stremio?"
+msgstr "Devi installare il tuo addon in Stremio?"
+
+#: templates/main/account_settings.html:151
+msgid "Security"
+msgstr "Sicurezza"
+
+#: templates/main/account_settings.html:154
+msgid "Manage your account security settings:"
+msgstr "Gestisci le impostazioni di sicurezza del tuo account:"
+
+#: templates/main/account_settings.html:164
+msgid "Danger Zone"
+msgstr "Opzioni critiche"
+
+#: templates/main/account_settings.html:167
+msgid "Warning:"
+msgstr "Attenzione:"
+
+#: templates/main/account_settings.html:167
+msgid "This action cannot be undone."
+msgstr "L'operazione non può essere annullata."
+
+#: templates/main/account_settings.html:168
+msgid "Deleting your account will permanently remove all your data including uploaded subtitles, selections, and votes."
+msgstr "L'eliminazione del tuo account rimuoverà permanentemente tutti i tuoi dati, inclusi sottotitoli, selezioni e voti."
+
+#: templates/main/account_settings.html:170
+#: templates/main/account_settings.html:181
+msgid "Delete Account"
+msgstr "Elimina account"
+
+#: templates/main/account_settings.html:185
+msgid "Are you absolutely sure?"
+msgstr "Sei assolutamente sicuro?"
+
+#: templates/main/account_settings.html:186
+msgid "This will permanently delete your account and all associated data:"
+msgstr "Questo eliminerà definitivamente il tuo account e tutti i dati associati:"
+
+#: templates/main/account_settings.html:188
+msgid "All uploaded subtitles"
+msgstr "Tutti i sottotitoli caricati"
+
+#: templates/main/account_settings.html:189
+msgid "All subtitle selections"
+msgstr "Tutte le selezioni di sottotitoli"
+
+#: templates/main/account_settings.html:190
+msgid "All votes"
+msgstr "Tutti i voti"
+
+#: templates/main/account_settings.html:191
+msgid "Activity history"
+msgstr "Cronologia di attività"
+
+#: templates/main/account_settings.html:192
+msgid "Provider connections"
+msgstr "Connessioni del provider"
+
+#: templates/main/account_settings.html:194
+msgid "This action cannot be undone!"
+msgstr "L'operazione non può essere annullata!"
+
+#: templates/main/account_settings.html:198
+#, python-format
+msgid "Type your username %(username)s to confirm:"
+msgstr "Digita il tuo nome utente %(username)s per confermare:"
+
+#: templates/main/account_settings.html:206
+msgid "Delete My Account"
+msgstr "Elimina il mio account"
+
+#: templates/main/configure.html:3
+msgid "Configure Addon"
+msgstr "Configura addon"
+
+#: templates/main/configure.html:8
+msgid "Configure Stremio Addon"
+msgstr "Configura addon Stremio"
+
+#: templates/main/configure.html:10
+msgid "Follow the instructions below to install the Community Subtitles addon in your Stremio application."
+msgstr "Segui le istruzioni qui sotto per installare l'addon Community Subtitles nella tua applicazione Stremio."
+
+#: templates/main/configure.html:19
+msgid "Your Personal Addon Link"
+msgstr "Il tuo link addon personale"
+
+#: templates/main/configure.html:25
+msgid "This is your personal addon link. Do not share it with others as it's tied to your account."
+msgstr "Questo è il tuo link addon personale. Non condividerlo con altre persone: è legato al tuo account."
+
+#: templates/main/configure.html:31
+msgid "Copy"
+msgstr "Copia"
+
+#: templates/main/configure.html:38
+msgid "Install in Stremio"
+msgstr "Installa in Stremio"
+
+#: templates/main/configure.html:44
+msgid "There was a problem generating your addon link. Please contact support."
+msgstr "Si è verificato un problema durante la creazione del tuo link addon. Contatta l'assistenza."
+
+#: templates/main/configure.html:52
+msgid "Installation Instructions"
+msgstr "Istruzioni per l'installazione"
+
+#: templates/main/configure.html:57
+msgid "Open Stremio"
+msgstr "Apri Stremio"
+
+#: templates/main/configure.html:57
+msgid "on your device"
+msgstr "sul tuo dispositivo"
+
+#: templates/main/configure.html:60
+msgid "Click the \"Install in Stremio\" button"
+msgstr "Clicca sul pulsante \"Installa in Stremio\""
+
+#: templates/main/configure.html:60
+msgid "above, or copy the addon URL and add it manually in Stremio"
+msgstr "sopra, o copia l'URL dell'addon e aggiungilo manualmente in Stremio"
+
+#: templates/main/configure.html:63
+msgid "Confirm the installation"
+msgstr "Conferma l'installazione"
+
+#: templates/main/configure.html:63
+msgid "when prompted by Stremio"
+msgstr "quando viene richiesto da Stremio"
+
+#: templates/main/configure.html:66
+msgid "Start watching content"
+msgstr "Inizia a guardare i contenuti"
+
+#: templates/main/configure.html:66
+msgid "with community subtitles"
+msgstr "con i sottotitoli della community"
+
+#: templates/main/configure.html:76
+msgid "Addon Features"
+msgstr "Funzionalità dell'addon"
+
+#: templates/main/configure.html:82
+msgid "Automatic subtitle detection"
+msgstr "Rilevamento automatico dei sottotitoli"
+
+#: templates/main/configure.html:86
+msgid "Community-contributed subtitles"
+msgstr "Sottotitoli con i contributi della community"
+
+#: templates/main/configure.html:90
+msgid "Quality voting system"
+msgstr "Sistema di votazione qualitativo"
+
+#: templates/main/configure.html:94
+msgid "Multiple language support"
+msgstr "Supporto per più lingue"
+
+#: templates/main/configure.html:102
+msgid "Need Help?"
+msgstr "Serve aiuto?"
+
+#: templates/main/configure.html:105
+msgid "If you're having trouble installing the addon, try these steps:"
+msgstr "Se hai problemi a installare l'addon, prova questi passaggi:"
+
+#: templates/main/configure.html:107
+msgid "Make sure you have the latest version of Stremio"
+msgstr "Assicurati di avere l'ultima versione di Stremio"
+
+#: templates/main/configure.html:108
+msgid "Try copying the URL and adding it manually in Stremio"
+msgstr "Prova a copiare l'URL e aggiungerlo manualmente in Stremio"
+
+#: templates/main/configure.html:109
+msgid "Restart Stremio and try again"
+msgstr "Riavvia Stremio e riprova"
+
+#: templates/main/content_detail.html:23
+#: templates/main/upload_subtitle.html:106
+msgid "Content Information"
+msgstr "Informazioni sul contenuto"
+
+#: templates/main/content_detail.html:28
+#: templates/main/upload_subtitle.html:119
+msgid "Type:"
+msgstr "Tipo:"
+
+#: templates/main/content_detail.html:30 templates/main/dashboard.html:63
+#: templates/main/upload_subtitle.html:121
+msgid "Series"
+msgstr "Serie"
+
+#: templates/main/content_detail.html:34
+#: templates/main/upload_subtitle.html:125
+msgid "ID:"
+msgstr "ID:"
+
+#: templates/main/content_detail.html:38
+#: templates/main/selected_subtitles.html:92
+#: templates/main/upload_subtitle.html:129
+msgid "Video Hash:"
+msgstr "Hash del video:"
+
+#: templates/main/content_detail.html:44
+msgid "Filename:"
+msgstr "Nome file:"
+
+#: templates/main/content_detail.html:50
+#: templates/main/upload_subtitle.html:135
+msgid "Season:"
+msgstr "Stagione:"
+
+#: templates/main/content_detail.html:55
+#: templates/main/upload_subtitle.html:140
+msgid "Episode:"
+msgstr "Episodio:"
+
+#: templates/main/content_detail.html:61
+msgid "Year:"
+msgstr "Anno:"
+
+#: templates/main/content_detail.html:66
+msgid "Runtime:"
+msgstr "Durata:"
+
+#: templates/main/content_detail.html:71
+msgid "Genres:"
+msgstr "Generi:"
+
+#: templates/main/content_detail.html:96
+msgid "Overview"
+msgstr "Sommario"
+
+#: templates/main/content_detail.html:105
+msgid "Community Subtitles"
+msgstr "Sottotitoli della community"
+
+#: templates/main/content_detail.html:111
+msgid "Reset All Selections"
+msgstr "Ripristina tutte le selezioni"
+
+#: templates/main/content_detail.html:115
+msgid "Upload New"
+msgstr "Carica nuovo"
+
+#: templates/main/content_detail.html:130
+msgid "Currently Selected"
+msgstr "Attualmente selezionato"
+
+#: templates/main/content_detail.html:134
+#: templates/main/content_detail.html:141
+msgid "Auto Selected"
+msgstr "Selezione automatica"
+
+#: templates/main/content_detail.html:136
+#: templates/main/content_detail.html:143
+msgid "User Selected"
+msgstr "Utente selezionato"
+
+#: templates/main/content_detail.html:139
+msgid "Provider"
+msgstr "Provider"
+
+#: templates/main/content_detail.html:170
+msgid "No subtitle selected for this language."
+msgstr "Nessun sottotitolo selezionato per questa lingua."
+
+#: templates/main/content_detail.html:218
+msgid "No community subtitles available for this content yet."
+msgstr "Nessun sottotitolo della community disponibile per questo contenuto."
+
+#: templates/main/content_detail.html:220
+msgid "Be the first to upload subtitles"
+msgstr "Carica per primo i sottotitoli"
+
+#: templates/main/content_detail.html:229
+msgid "Provider Results"
+msgstr "Risultati del provider"
+
+#: templates/main/content_detail.html:265
+msgid "No subtitles found from providers for your criteria and preferred languages."
+msgstr "Nessun sottotitolo trovato dai provider per i tuoi criteri e le lingue preferite."
+
+#: templates/main/content_detail.html:265
+msgid "Configure providers in your account settings"
+msgstr "Configura i provider nelle impostazioni del tuo account"
+
+#: templates/main/content_detail.html:265
+msgid "to see results here."
+msgstr "per vedere i risultati qui."
+
+#: templates/main/dashboard.html:8
+msgid "Your Dashboard"
+msgstr "Il tuo pannello"
+
+#: templates/main/dashboard.html:11
+#, python-format
+msgid "Welcome back, %(username)s! Here's your recent activity and subtitle history."
+msgstr "Bentornato, %(username)s! Ecco la tua attività recente e la cronologia dei sottotitoli."
+
+#: templates/main/dashboard.html:13
+msgid "Welcome back, Guest! Here's your recent activity and subtitle history."
+msgstr "Bentornato, Ospite! Ecco la tua attività recente e la cronologia dei sottotitoli."
+
+#: templates/main/dashboard.html:23
+msgid "Recent Activity"
+msgstr "Attività recente"
+
+#: templates/main/dashboard.html:24
+msgid "Elements:"
+msgstr "Elementi:"
+
+#: templates/main/dashboard.html:27
+#, python-format
+msgid "We store only your last %(max)s activities."
+msgstr "Conserviamo solo le tue ultime %(max)s attività."
+
+#: templates/main/dashboard.html:70
+msgid "Are you sure you want to delete this activity record?"
+msgstr "Sei sicuro di voler eliminare questa attività registrata?"
+
+#: templates/main/dashboard.html:72
+msgid "Delete Activity"
+msgstr "Elimina attività"
+
+#: templates/main/dashboard.html:87
+msgid "No recent activity found. Start watching content in Stremio with the addon installed!"
+msgstr "Nessuna attività recente trovata. Inizia a guardare i contenuti in Stremio con l'addon installato!"
+
+#: templates/main/dashboard.html:100
+msgid "Install the addon in Stremio to start using community subtitles:"
+msgstr "Installa l'addon in Stremio per iniziare a usare i sottotitoli della community:"
+
+#: templates/main/dashboard.html:107
+msgid "Your Stats"
+msgstr "Le tue statistiche"
+
+#: templates/main/dashboard.html:112
+msgid "Uploaded Subtitles"
+msgstr "Sottotitoli caricati"
+
+#: templates/main/dashboard.html:116 templates/main/selected_subtitles.html:4
+#: templates/main/selected_subtitles.html:9
+msgid "Selected Subtitles"
+msgstr "Sottotitoli selezionati"
+
+#: templates/main/dashboard.html:120
+msgid "Votes Cast"
+msgstr "Voti espressi"
+
+#: templates/main/index.html:7
+msgid "Stremio Community Subtitles Addon"
+msgstr "Addon Stremio Community Subtitles"
+
+#: templates/main/index.html:10
+msgid "Find, share, and vote on subtitles provided by the community for Stremio. Log in or register to get started and receive your personalized addon installation link."
+msgstr "Trova, condividi e vota i sottotitoli forniti dalla community per Stremio. Effettua l'accesso o registrati per iniziare e ricevere il link di installazione personalizzato dell'addon."
+
+#: templates/main/index.html:24
+msgid "Find Subtitles"
+msgstr "Trova sottotitoli"
+
+#: templates/main/index.html:25
+msgid "Easily find subtitles for your favorite movies and TV shows directly in Stremio."
+msgstr "Trova facilmente i sottotitoli per i tuoi film e programmi TV preferiti direttamente in Stremio."
+
+#: templates/main/index.html:33
+msgid "Share Subtitles"
+msgstr "Condividi sottotitoli"
+
+#: templates/main/index.html:34
+msgid "Upload and share your subtitles with the community to help others enjoy content in their language."
+msgstr "Carica e condividi i tuoi sottotitoli con la community per aiutare gli altri a fruire dei contenuti nella loro lingua."
+
+#: templates/main/index.html:42
+msgid "Vote on Quality"
+msgstr "Votazione sulla qualità"
+
+#: templates/main/index.html:43
+msgid "Vote on subtitles to help others find the best quality translations for their viewing experience."
+msgstr "Vota i sottotitoli per aiutare gli altri a trovare le migliori traduzioni di qualità per la loro esperienza di visualizzazione."
+
+#: templates/main/index.html:51
+msgid "How It Works"
+msgstr "Come funziona"
+
+#: templates/main/index.html:57
+msgid "Register for an account"
+msgstr "Registra un account"
+
+#: templates/main/index.html:58
+msgid "Install the addon in Stremio using your personal link"
+msgstr "Installa l'addon in Stremio utilizzando il tuo link personale"
+
+#: templates/main/index.html:59
+msgid "Start watching content with community subtitles"
+msgstr "Inizia a guardare i contenuti con i sottotitoli della community"
+
+#: templates/main/index.html:60
+msgid "Upload your own subtitles or vote on existing ones"
+msgstr "Carica i tuoi sottotitoli o vota quelli esistenti"
+
+#: templates/main/my_subtitles.html:11
+msgid "Manage all subtitles you've submitted to the community."
+msgstr "Gestisci tutti i sottotitoli che hai inviato alla community."
+
+#: templates/main/my_subtitles.html:51
+#: templates/main/selected_subtitles.html:58
+#: templates/main/voted_subtitles.html:56
+msgid "Author:"
+msgstr "Autore:"
+
+#: templates/main/my_subtitles.html:65
+#, python-format
+msgid "%(votes)s votes"
+msgstr "%(votes)s voti"
+
+#: templates/main/my_subtitles.html:80
+msgid "Are you sure you want to delete this subtitle?"
+msgstr "Sei sicuro di voler eliminare questi sottotitoli?"
+
+#: templates/main/my_subtitles.html:82
+#: templates/main/selected_subtitles.html:110
+msgid "Delete"
+msgstr "Elimina"
+
+#: templates/main/my_subtitles.html:104
+msgid "No Subtitles Yet"
+msgstr "Sottotitoli non ancora disponibili"
+
+#: templates/main/my_subtitles.html:105
+msgid "You haven't uploaded any subtitles yet."
+msgstr "Non hai ancora caricato sottotitoli."
+
+#: templates/main/my_subtitles.html:107
+msgid "Upload Your First Subtitle"
+msgstr "Carica i tuoi primi sottotitoli"
+
+#: templates/main/selected_subtitles.html:11
+msgid "View and manage all subtitles you've selected for your videos."
+msgstr "Visualizza e gestisci tutti i sottotitoli che hai selezionato per i tuoi video."
+
+#: templates/main/selected_subtitles.html:21
+#: templates/main/selected_subtitles.html:128
+msgid "My Selected Subtitles"
+msgstr "Sottotitoli selezionati"
+
+#: templates/main/selected_subtitles.html:60
+msgid "Votes:"
+msgstr "Voti:"
+
+#: templates/main/selected_subtitles.html:97
+msgid "Selected:"
+msgstr "Selezionati:"
+
+#: templates/main/selected_subtitles.html:108
+msgid "Are you sure you want to delete this selection?"
+msgstr "Sei sicuro di voler eliminare questa selezione?"
+
+#: templates/main/selected_subtitles.html:132
+msgid "No Selections Yet"
+msgstr "Selezioni non ancora disponibili"
+
+#: templates/main/selected_subtitles.html:133
+msgid "You haven't selected any subtitles yet."
+msgstr "Non hai ancora selezionato sottotitoli."
+
+#: templates/main/upload_subtitle.html:12
+msgid "Advanced Users"
+msgstr "Utenti avanzati"
+
+#: templates/main/upload_subtitle.html:16
+msgid "Advanced Upload Mode:"
+msgstr "Modalità di caricamento avanzato:"
+
+#: templates/main/upload_subtitle.html:16
+msgid "This feature is for experienced users who want to upload subtitles without having an activity entry in their dashboard."
+msgstr "Questa funzione è per utenti esperti che vogliono caricare sottotitoli senza avere una voce attività nel loro pannello."
+
+#: templates/main/upload_subtitle.html:18
+msgid "You'll need to provide the Content ID manually. To upload subtitles for what you are watching right now, open the activity entry for it from the"
+msgstr "Dovrai fornire manualmente l'ID contenuto. Per caricare sottotitoli per quello che stai guardando in questo momento, apri la voce attività relativa dal"
+
+#: templates/main/upload_subtitle.html:23
+msgid "Upload a subtitle file for"
+msgstr "Carica un file di sottotitoli per"
+
+#: templates/main/upload_subtitle.html:39
+msgid "Subtitle Information"
+msgstr "Informazioni sui sottotitoli"
+
+#: templates/main/upload_subtitle.html:50
+msgid "Content Identification"
+msgstr "Identificazione del contenuto"
+
+#: templates/main/upload_subtitle.html:51
+msgid "Provide the Content ID and type for the content you want to upload subtitles for:"
+msgstr "Fornire l'ID contenuto e digitare per il contenuto per cui si desidera caricare i sottotitoli:"
+
+#: templates/main/upload_subtitle.html:53
+msgid "IMDB ID:"
+msgstr "ID IMDB:"
+
+#: templates/main/upload_subtitle.html:53
+#: templates/main/upload_subtitle.html:54
+msgid "Format like"
+msgstr "Formato come"
+
+#: templates/main/upload_subtitle.html:53
+msgid "(for movies and TV series)"
+msgstr "(per film e serie TV)"
+
+#: templates/main/upload_subtitle.html:54
+msgid "Kitsu ID:"
+msgstr "ID Kitsu:"
+
+#: templates/main/upload_subtitle.html:54
+msgid "(for anime)"
+msgstr "(per anime)"
+
+#: templates/main/upload_subtitle.html:62
+msgid "Enter IMDB ID (tt1234567) or Kitsu ID (kitsu:12345)"
+msgstr "Inserisci l'ID IMDB (tt1234567) o l'ID Kitsu (kitsu:12345)"
+
+#: templates/main/upload_subtitle.html:71
+msgid "Season number (default: 1). Ignore for kitsu"
+msgstr "Numero di stagione (predefinito: 1). Ignora per Kitsu"
+
+#: templates/main/upload_subtitle.html:74
+msgid "Episode number (required for series)"
+msgstr "Numero dell'episodio (richiesto per le serie TV)"
+
+#: templates/main/upload_subtitle.html:84
+msgid "Enter 'utf8' (default), 'auto' for automatic detection, or a specific encoding like 'cp1250', 'latin1', etc."
+msgstr "Inserisci 'utf8' (predefinito), 'auto' per il rilevamento automatico o una codifica specifica come 'cp1250', 'latin1', ecc."
+
+#: templates/main/upload_subtitle.html:85
+msgid "Select FPS only for subtitle formats that use frames. Leave as 'Auto' if unsure."
+msgstr "Seleziona FPS solo per i formati di sottotitoli che usano fotogrammi. Lascia 'Auto' se non sei sicuro."
+
+#: templates/main/upload_subtitle.html:111
+msgid "Title:"
+msgstr "Titolo:"
+
+#: templates/main/upload_subtitle.html:157
+msgid "How to Find Content IDs"
+msgstr "Come trovare gli ID contenuto"
+
+#: templates/main/upload_subtitle.html:160
+msgid "IMDB ID (Movies & TV Shows):"
+msgstr "ID IMDB (film e serie TV):"
+
+#: templates/main/upload_subtitle.html:162
+#: templates/main/upload_subtitle.html:169
+msgid "Go to"
+msgstr "Vai su"
+
+#: templates/main/upload_subtitle.html:163
+msgid "Search for your content"
+msgstr "Cerca il tuo contenuto"
+
+#: templates/main/upload_subtitle.html:164
+msgid "Copy the ID from URL (e.g.,"
+msgstr "Copia l'ID dall'URL (ad es.,"
+
+#: templates/main/upload_subtitle.html:167
+msgid "Kitsu ID (Anime):"
+msgstr "ID Kitsu (anime):"
+
+#: templates/main/upload_subtitle.html:170
+msgid "Search for your anime"
+msgstr "Cerca il tuo anime"
+
+#: templates/main/upload_subtitle.html:171
+msgid "Investigate url of the thumbnail"
+msgstr "Cerca l'URL della miniatura"
+
+#: templates/main/upload_subtitle.html:172
+msgid "Copy the ID from thumbnail's"
+msgstr "Copia l'ID dalla miniatura"
+
+#: templates/main/upload_subtitle.html:172
+msgid "and add"
+msgstr "e aggiungi"
+
+#: templates/main/upload_subtitle.html:172
+msgid "prefix"
+msgstr "prefisso"
+
+#: templates/main/upload_subtitle.html:173
+msgid "Example:"
+msgstr "Esempio:"
+
+#: templates/main/upload_subtitle.html:182
+msgid "Subtitle Guidelines"
+msgstr "Linee guida sottotitoli"
+
+#: templates/main/upload_subtitle.html:186
+msgid "Supported formats: SRT, SUB, ASS, SSA, TXT"
+msgstr "Formati supportati: SRT, SUB, ASS, SSA, TXT"
+
+#: templates/main/upload_subtitle.html:187
+msgid "Maximum file size: 2MB"
+msgstr "Dimensione massima file: 2 MB"
+
+#: templates/main/upload_subtitle.html:188
+msgid "Ensure proper timing and formatting"
+msgstr "Garantire timing e formattazione corretti"
+
+#: templates/main/upload_subtitle.html:189
+msgid "Avoid hardcoded advertisements"
+msgstr "Evitare pubblicità hardcoded"
+
+#: templates/main/upload_subtitle.html:190
+msgid "Respect copyright and intellectual property"
+msgstr "Rispettare il diritto d'autore e la proprietà intellettuale"
+
+#: templates/main/upload_subtitle.html:192
+msgid "Advanced:"
+msgstr "Avanzate:"
+
+#: templates/main/upload_subtitle.html:192
+msgid "No video hash association"
+msgstr "Nessuna associazione hash video"
+
+#: templates/main/upload_subtitle.html:204
+msgid "Back to Home"
+msgstr "Torna alla home"
+
+#: templates/main/upload_subtitle.html:207
+msgid "Back to Content"
+msgstr "Torna ai contenuti"
+
+#: templates/main/voted_subtitles.html:4 templates/main/voted_subtitles.html:9
+msgid "Voted Subtitles"
+msgstr "Sottotitoli votati"
+
+#: templates/main/voted_subtitles.html:11
+msgid "View and manage all your subtitle votes."
+msgstr "Visualizza e gestisci tutti i tuoi voti ai sottotitoli."
+
+#: templates/main/voted_subtitles.html:21
+#: templates/main/voted_subtitles.html:100
+msgid "My Voted Subtitles"
+msgstr "I miei sottotitoli votati"
+
+#: templates/main/voted_subtitles.html:58
+msgid "Total Votes:"
+msgstr "Voti totali:"
+
+#: templates/main/voted_subtitles.html:73
+msgid "Your Vote:"
+msgstr "Il tuo voto:"
+
+#: templates/main/voted_subtitles.html:76
+msgid "Voted:"
+msgstr "Votazione:"
+
+#: templates/main/voted_subtitles.html:104
+msgid "No Votes Yet"
+msgstr "Voti non ancora disponibili"
+
+#: templates/main/voted_subtitles.html:105
+msgid "You haven't voted on any subtitles yet."
+msgstr "Non hai ancora votato sottotitoli."
+
+#: templates/providers/napisy24_settings.html:4
+msgid "is a Polish subtitle database. No authentication required - just click Connect to activate."
+msgstr "è un database di sottotitoli polacco. Non è richiesta alcuna autenticazione - basta fare clic su Connetti per attivare."
+
+#: templates/providers/opensubtitles_form.html:5
+msgid "Your OpenSubtitles.com username"
+msgstr "Il tuo nome utente su OpenSubtitles.com"
+
+#: templates/providers/opensubtitles_form.html:14
+msgid "Your OpenSubtitles.com password"
+msgstr "La tua password su OpenSubtitles.com"
+
+#: templates/providers/opensubtitles_form.html:16
+msgid "Your password is transmitted securely and stored encrypted."
+msgstr "La password viene trasmessa in modo sicuro e memorizzata criptata."
+
+#: templates/providers/opensubtitles_form.html:22
+msgid "Important:"
+msgstr "Importante:"
+
+#: templates/providers/opensubtitles_form.html:22
+msgid "OpenSubtitles has download limits."
+msgstr "OpenSubtitles ha limiti di download."
+
+#: templates/providers/opensubtitles_form.html:23
+msgid "Free accounts: 200 downloads/day. VIP accounts: Unlimited."
+msgstr "Account gratuiti: 200 download al giorno. Account VIP: illimitati."
+
+#: templates/providers/subdl_form.html:3
+msgid "SubDL API Key"
+msgstr "Chiave API SubDL"
+
+#: templates/providers/subdl_form.html:5
+msgid "Your SubDL API key"
+msgstr "La tua chiave API SubDL"
+
+#: templates/providers/subdl_form.html:7
+msgid "Get your API key from"
+msgstr "Ottieni la tua chiave API da"
+
+#: templates/providers/subdl_form.html:7
+msgid "SubDL API page"
+msgstr "Pagina API SubDL"
+
+#: templates/providers/subdl_form.html:18
+msgid "SubDL returns ZIP files that may contain ASS format. This option will always add an ass entry in Stremio, even if there are no .ass subtitles in the .zip."
+msgstr "SubDL restituisce file ZIP che possono contenere il formato ASS. Questa opzione aggiungerà sempre una voce .ass in Stremio, anche se non ci sono sottotitoli .ass nello .zip."
+
+#: templates/providers/subdl_form.html:25
+#: templates/providers/subsource_form.html:23
+msgid "Note:"
+msgstr "Nota:"
+
+#: templates/providers/subdl_form.html:25
+msgid "SubDL offers free API access with rate limits. Check their website for current limits and pricing."
+msgstr "SubDL offre un accesso API gratuito limitato. Controlla il loro sito web per i limiti e i prezzi attuali."
+
+#: templates/providers/subsource_form.html:3
+msgid "SubSource API Key"
+msgstr "Chiave API SubSource"
+
+#: templates/providers/subsource_form.html:5
+msgid "Your SubSource API key"
+msgstr "La tua chiave API SubSource"
+
+#: templates/providers/subsource_form.html:7
+msgid "SubSource API page"
+msgstr "Pagina API SubSource"
+
+#: templates/providers/subsource_form.html:16
+msgid "SubSource returns ZIP files that may contain ASS format. This option will always add an ass entry in Stremio, even if there are no .ass subtitles in the .zip."
+msgstr "SubSource restituisce file ZIP che possono contenere il formato ASS. Questa opzione aggiungerà sempre una voce .ass in Stremio, anche se non ci sono sottotitoli .ass nello .zip."
+
+#: templates/providers/subsource_form.html:23
+msgid "SubSource offers API access for subtitle downloads. Check their website for current limits."
+msgstr "SubSource offre accesso API per il download dei sottotitoli. Controlla il loro sito web per i limiti attuali."
+

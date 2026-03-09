@@ -1,3 +1,4 @@
+from quart_babel import gettext as _
 from quart import Blueprint, render_template, flash, current_app, url_for
 from quart_auth import login_required, current_user
 from markupsafe import Markup
@@ -195,13 +196,14 @@ async def content_detail(activity_id):
                                 'votes': None,
                                 'download_count': result.download_count,
                                 'hearing_impaired': result.hearing_impaired,
+                                'forced': result.forced,
                                 'url': result.metadata.get('url', '') if result.metadata else ''
                             }
                         }
                         provider_results_by_lang[result.language].append(item)
         except Exception as e:
             current_app.logger.error(f"Error fetching provider results: {e}", exc_info=True)
-            await flash("An error occurred while searching for subtitles.", "warning")
+            await flash(_("An error occurred while searching for subtitles."), "warning")
     
     # Determine active subtitle for each language using cached provider results
     current_app.logger.debug(f"[TIMING] Before get_active_subtitle_details in {time.time() - start_time:.2f}s")

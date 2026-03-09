@@ -96,19 +96,18 @@ class Config:
     CACHE_DEFAULT_TIMEOUT = 300
     
     # Database connection pool settings
-    SQLALCHEMY_ENGINE_OPTIONS = {
-        'pool_pre_ping': True,
-        'pool_size': 5,
-        'max_overflow': 10,
-        'pool_recycle': 300,
-        'pool_timeout': 10,
-        'pool_reset_on_return': 'rollback',
-        'connect_args': {
-            'ssl': {'ssl': True}
-        } if not USE_SQLITE and 'mysql' in os.environ.get('DATABASE_URL', '') else {}
-    }
+    SQLALCHEMY_POOL_SIZE = 5
+    SQLALCHEMY_MAX_OVERFLOW = 10
+    SQLALCHEMY_POOL_PRE_PING = False  # Disabled for aiomysql - rely on pool_recycle instead
+    SQLALCHEMY_POOL_RECYCLE = 150 
+    SQLALCHEMY_POOL_TIMEOUT = 30
 
     MAX_USER_ACTIVITIES = int(os.environ.get('MAX_USER_ACTIVITIES') or '15')
+    
+    # Babel i18n
+    BABEL_DEFAULT_LOCALE = 'en'
+    BABEL_TRANSLATION_DIRECTORIES = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'translations')
+    LANGUAGES = ['en', 'pl', 'es', 'fr', 'de', 'it', 'pt', 'pt_BR', 'ru', 'ja', 'zh', 'tr', 'ar', 'he', 'vi']
     
     # Gevent support (disabled in development for debugger compatibility)
     USE_GEVENT = True

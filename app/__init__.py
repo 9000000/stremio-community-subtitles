@@ -1,8 +1,8 @@
 """Async Quart application factory"""
 import os
 import logging
-from quart import Quart
-from .extensions import init_async_db, auth_manager, init_cors, cache, csrf
+from quart import Quart, request
+from .extensions import init_async_db, auth_manager, init_cors, cache, csrf, babel
 from config import get_config
 
 
@@ -52,6 +52,18 @@ def create_app():
     auth_manager.init_app(app)
     csrf.init_app(app)
     init_cors(app)
+    
+    # Locale selector for babel
+    def get_locale():
+        lang = request.cookies.get('lang')
+        if not lang:
+            lang = request.accept_languages.best_match(app.config['LANGUAGES'])
+        # Normalize: browser may send 'pl-pl', we need 'pl'
+        if lang and '-' in lang:
+            lang = lang.split('-')[0]
+        return lang
+    
+    babel.init_app(app, locale_selector=get_locale)
 
     # Initialize anime mapping database
     try:
@@ -72,6 +84,7 @@ def create_app():
     from .routes.subtitles import subtitles_bp
     from .routes.content import content_bp
     from .routes.providers import providers_bp
+    from .routes.language import language_bp
 
     app.register_blueprint(auth_bp)
     app.register_blueprint(main_bp)
@@ -79,6 +92,7 @@ def create_app():
     app.register_blueprint(subtitles_bp)
     app.register_blueprint(content_bp)
     app.register_blueprint(providers_bp)
+    app.register_blueprint(language_bp)
 
     os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
@@ -122,5 +136,60 @@ def create_app():
                 user = result.scalar_one_or_none()
                 return {'user': user}
         return {'user': None}
+    
+    @app.context_processor
+    def inject_language_info():
+        import os
+        lang_map = {
+            'en': {'flag': '🇬🇧', 'name': 'English'},
+            'pl': {'flag': '🇵🇱', 'name': 'Polski'},
+            'es': {'flag': '🇪🇸', 'name': 'Español'},
+            'fr': {'flag': '🇫🇷', 'name': 'Français'},
+            'de': {'flag': '🇩🇪', 'name': 'Deutsch'},
+            'it': {'flag': '🇮🇹', 'name': 'Italiano'},
+            'pt': {'flag': '🇵🇹', 'name': 'Português'},
+            'pt_BR': {'flag': '🇧🇷', 'name': 'Português (BR)'},
+            'ru': {'flag': '🇷🇺', 'name': 'Русский'},
+            'ja': {'flag': '🇯🇵', 'name': '日本語'},
+            'zh': {'flag': '🇨🇳', 'name': '中文'},
+            'tr': {'flag': '🇹🇷', 'name': 'Türkçe'},
+            'ar': {'flag': '🇸🇦', 'name': 'العربية'},
+            'he': {'flag': '🇮🇱', 'name': 'עברית'},
+            'vi': {'flag': '🇻🇳', 'name': 'Tiếng Việt'}
+        }
+        
+        # Check which languages have translations (have .mo files)
+        available_languages = ['en']  # English is always available
+        translations_dir = os.path.join(os.path.dirname(__file__), '..', 'translations')
+        for lang_code in app.config.get('LANGUAGES', []):
+            if lang_code == 'en':
+                continue
+            mo_file = os.path.join(translations_dir, lang_code, 'LC_MESSAGES', 'messages.mo')
+            if os.path.exists(mo_file) and os.path.getsize(mo_file) > 700:  # Check if file has any translations (>700B)
+                available_languages.append(lang_code)
+        
+        # Use same logic as get_locale()
+        current_lang = request.cookies.get('lang')
+        if not current_lang:
+            current_lang = request.accept_languages.best_match(available_languages) or 'en'
+        
+        # Get CSS file mtime for cache busting
+        css_path = os.path.join(app.static_folder, 'css', 'style.css')
+        css_mtime = int(os.path.getmtime(css_path)) if os.path.exists(css_path) else 0
+        
+        # Get JS files mtime for cache busting
+        js_files = ['utils.js', 'account_settings.js', 'voting.js']
+        js_versions = {}
+        for js_file in js_files:
+            js_path = os.path.join(app.static_folder, 'js', js_file)
+            js_versions[js_file] = int(os.path.getmtime(js_path)) if os.path.exists(js_path) else 0
+        
+        return {
+            'language_map': lang_map,
+            'current_language': current_lang,
+            'supported_languages': available_languages,
+            'css_version': css_mtime,
+            'js_versions': js_versions
+        }
 
     return app

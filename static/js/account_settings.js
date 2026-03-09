@@ -18,6 +18,10 @@ document.addEventListener('DOMContentLoaded', function () {
             toggle.addEventListener('change', function() {
                 const csrfToken = document.querySelector('input[name="csrf_token"]')?.value;
                 const accountUrl = this.getAttribute('data-account-url');
+                const successMsg = this.getAttribute('data-success-msg');
+                const errorMsg = this.getAttribute('data-error-msg');
+                const errorGeneral = this.getAttribute('data-error-general');
+                const toggleElement = this;
                 
                 if (!csrfToken) {
                     console.error('CSRF token not found');
@@ -32,21 +36,21 @@ document.addEventListener('DOMContentLoaded', function () {
                         'Content-Type': 'application/json',
                         'X-CSRFToken': csrfToken
                     },
-                    body: JSON.stringify({ [settingKey]: this.checked })
+                    body: JSON.stringify({ [settingKey]: toggleElement.checked })
                 })
                 .then(response => response.json())
                 .then(data => {
                     if (data.success) {
-                        showToast('Setting updated successfully', 'success');
+                        showToast(successMsg || 'Setting updated successfully', 'success');
                     } else {
-                        showToast('Failed to update setting', 'danger');
-                        this.checked = !this.checked;
+                        showToast(errorMsg || 'Failed to update setting', 'danger');
+                        toggleElement.checked = !toggleElement.checked;
                     }
                 })
                 .catch(error => {
                     console.error('Error:', error);
-                    showToast('Error updating setting', 'danger');
-                    this.checked = !this.checked;
+                    showToast(errorGeneral || 'Error updating setting', 'danger');
+                    toggleElement.checked = !toggleElement.checked;
                 });
             });
         }
@@ -54,4 +58,5 @@ document.addEventListener('DOMContentLoaded', function () {
     
     handleToggle('show_no_subtitles', 'show_no_subtitles');
     handleToggle('prioritize_ass_subtitles', 'prioritize_ass_subtitles');
+    handleToggle('prioritize_forced_subtitles', 'prioritize_forced_subtitles');
 });

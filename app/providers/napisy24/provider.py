@@ -65,6 +65,8 @@ class Napisy24Provider(BaseSubtitleProvider):
                     language='pol',
                     release_name=hash_result['release'],
                     fps=hash_result.get('fps'),
+                    rating=hash_result.get('rating'),
+                    forced=False,
                     metadata={'hash_match': True}
                 ))
                 return results
@@ -91,7 +93,9 @@ class Napisy24Provider(BaseSubtitleProvider):
                                 language='pol',
                                 release_name=item['release'],
                                 uploader=item.get('author'),
-                                fps=item.get('fps')
+                                fps=item.get('fps'),
+                                rating=item.get('rating'),
+                                forced=False
                             ))
                 except client.Napisy24Error:
                     pass
@@ -141,7 +145,9 @@ class Napisy24Provider(BaseSubtitleProvider):
                                 language='pol',
                                 release_name=item['release'],
                                 uploader=item.get('author'),
-                                fps=item.get('fps')
+                                fps=item.get('fps'),
+                                rating=item.get('rating'),
+                                forced=False
                             ))
                 except:
                     pass

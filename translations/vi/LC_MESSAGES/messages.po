@@ -1,0 +1,1799 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: stremio-community-subtitles\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-02-17 13:49+0100\n"
+"PO-Revision-Date: 2026-02-18 01:50\n"
+"Last-Translator: \n"
+"Language-Team: Vietnamese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: stremio-community-subtitles\n"
+"X-Crowdin-Project-ID: 872640\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: messages.pot\n"
+"X-Crowdin-File-ID: 4\n"
+"Language: vi_VN\n"
+
+#: app/email.py:125
+msgid "Stremio Community Subtitles - Confirm Your Email"
+msgstr "Stremio Community Subtitles - Xác nhận Email của bạn"
+
+#: app/email.py:135
+msgid "Stremio Community Subtitles - Reset Your Password"
+msgstr "Stremio Community Subtitles - Đặt lại mật khẩu"
+
+#: app/forms.py:12 app/forms.py:20 app/forms.py:134
+msgid "Email"
+msgstr "Email"
+
+#: app/forms.py:13 app/forms.py:21
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: app/forms.py:14
+msgid "Remember Me"
+msgstr "Ghi nhớ đăng nhập"
+
+#: app/forms.py:15
+msgid "Sign In"
+msgstr "Đăng nhập"
+
+#: app/forms.py:19
+msgid "Username"
+msgstr "Tên người dùng"
+
+#: app/forms.py:22 app/forms.py:140
+msgid "Confirm Password"
+msgstr "Xác nhận mật khẩu"
+
+#: app/forms.py:23 app/forms.py:145
+msgid "Preferred Subtitle Languages"
+msgstr "Ngôn ngữ phụ đề ưu tiên"
+
+#: app/forms.py:24 templates/base.html:96 templates/main/index.html:14
+msgid "Register"
+msgstr "Đăng ký"
+
+#: app/forms.py:49
+msgid "Subtitle File (.srt, .sub, .txt, .ass, .ssa)"
+msgstr "Tập tin phụ đề (.srt, .sub, .txt, .ass, .ssa)"
+
+#: app/forms.py:51
+msgid "Only .srt, .sub, .txt, .ass, .ssa files allowed!"
+msgstr "Chỉ cho phép định dạng .srt, .sub, .txt, .ass, .ssa!"
+
+#: app/forms.py:53
+msgid "Subtitle Language"
+msgstr "Ngôn ngữ phụ đề"
+
+#: app/forms.py:54
+msgid "Encoding"
+msgstr "Bảng mã"
+
+#: app/forms.py:55
+msgid "FPS (Frames Per Second)"
+msgstr "FPS (Số khung hình mỗi giây)"
+
+#: app/forms.py:56
+msgid "Auto"
+msgstr "Tự động"
+
+#: app/forms.py:59
+msgid "Author (Optional)"
+msgstr "Tác giả (Tùy chỉnh)"
+
+#: app/forms.py:60
+msgid "Version/Sync Info (Optional)"
+msgstr "Thông tin phiên bản/đồng bộ (Không bắt buộc)"
+
+#: app/forms.py:61 templates/_provider_subtitle_list_item.html:43
+#: templates/_subtitle_list_item.html:51
+msgid "Forced/Foreign Parts Only"
+msgstr "Chỉ phụ đề bắt buộc/phụ đề nước ngoài"
+
+#: app/forms.py:64
+msgid "Content ID"
+msgstr "Content ID"
+
+#: app/forms.py:66
+msgid "IMDB ID (e.g., tt1234567) or Kitsu ID (e.g., kitsu:12345)"
+msgstr "IMDB ID (vd: tt1234567) hoặc Kitsu ID (vd: kitsu:12345)"
+
+#: app/forms.py:67
+msgid "Content Type"
+msgstr "Loại nội dung"
+
+#: app/forms.py:68 templates/main/content_detail.html:30
+#: templates/main/dashboard.html:63 templates/main/upload_subtitle.html:121
+msgid "Movie"
+msgstr "Phim"
+
+#: app/forms.py:68
+msgid "TV Series"
+msgstr "Phim bộ"
+
+#: app/forms.py:70
+msgid "Season Number"
+msgstr "Số mùa"
+
+#: app/forms.py:72
+msgid "Required for TV series (default: 1)"
+msgstr "Dùng cho Phim bộ (Mặc định: 1)"
+
+#: app/forms.py:73
+msgid "Episode Number"
+msgstr "Số tập"
+
+#: app/forms.py:75
+msgid "Required for TV series"
+msgstr "Dùng cho Phim bộ"
+
+#: app/forms.py:77 templates/main/upload_subtitle.html:4
+#: templates/main/upload_subtitle.html:11
+#: templates/main/upload_subtitle.html:21
+msgid "Upload Subtitle"
+msgstr "Tải lên phụ đề"
+
+#: app/forms.py:117
+msgid "Content ID must be either IMDB ID (starting with \"tt\") or Kitsu ID (format \"kitsu:12345\")"
+msgstr "Content ID phải là IMDB ID (bắt đầu bằng \"tt\") hoặc Kitsu ID (định dạng \"kitsu:12345\")"
+
+#: app/forms.py:123
+msgid "Episode number is required for TV series"
+msgstr "Phim bộ bắt buộc phải có Số tập"
+
+#: app/forms.py:127
+msgid "Current Password"
+msgstr "Mật khẩu hiện tại"
+
+#: app/forms.py:128 app/forms.py:139
+msgid "New Password"
+msgstr "Mật khẩu mới"
+
+#: app/forms.py:129
+msgid "Confirm New Password"
+msgstr "Xác nhận mật khẩu mới"
+
+#: app/forms.py:130 templates/auth/change_password.html:11
+#: templates/main/account_settings.html:157
+msgid "Change Password"
+msgstr "Thay đổi mật khẩu"
+
+#: app/forms.py:135
+msgid "Request Password Reset"
+msgstr "Yêu cầu đặt lại mật khẩu"
+
+#: app/forms.py:141 templates/auth/reset_password_request.html:11
+#: templates/email/reset_password.html:54
+msgid "Reset Password"
+msgstr "Đặt lại mật khẩu"
+
+#: app/forms.py:146
+msgid "Update Preference"
+msgstr "Cập nhật tùy chọn"
+
+#: app/forms.py:150
+msgid "Use OpenSubtitles Integration"
+msgstr "Sử dụng tính năng tích hợp OpenSubtitles"
+
+#: app/forms.py:152 templates/providers/opensubtitles_form.html:3
+msgid "OpenSubtitles Username"
+msgstr "Tên người dùng OpenSubtitles"
+
+#: app/forms.py:154
+msgid "Your OpenSubtitles.com Username"
+msgstr "Tên người dùng OpenSubtitles.com của bạn"
+
+#: app/forms.py:158 templates/providers/opensubtitles_form.html:12
+msgid "OpenSubtitles Password"
+msgstr "Mật khẩu OpenSubtitles"
+
+#: app/forms.py:160
+msgid "Your OpenSubtitles.com Password"
+msgstr "Mật khẩu OpenSubtitles.com của bạn"
+
+#: app/forms.py:163
+msgid "Save OpenSubtitles Settings"
+msgstr "Lưu cài đặt OpenSubtitles"
+
+#: app/routes/auth.py:33
+msgid "Invalid email or password"
+msgstr "Email hoặc mật khẩu không hợp lệ"
+
+#: app/routes/auth.py:37
+msgid "Please confirm your email address before logging in."
+msgstr "Vui lòng xác nhận địa chỉ Email của bạn trước khi đăng nhập."
+
+#: app/routes/auth.py:152
+msgid "A confirmation email has been sent."
+msgstr "Đã gửi email xác nhận."
+
+#: app/routes/auth.py:155
+msgid "Registration successful, but failed to send confirmation email. Please contact support."
+msgstr "Đăng ký thành công nhưng không thể gửi email xác nhận. Vui lòng liên hệ hỗ trợ."
+
+#: app/routes/auth.py:157
+msgid "Registration successful! You can now log in."
+msgstr "Đăng ký thành công! Đăng ký thành công! Bạn có thể đăng nhập ngay."
+
+#: app/routes/auth.py:164
+msgid "An error occurred during registration."
+msgstr "Đã xảy ra lỗi trong quá trình đăng ký."
+
+#: app/routes/auth.py:170
+msgid "An unexpected error occurred."
+msgstr "Đã xảy ra lỗi không mong muốn."
+
+#: app/routes/auth.py:185
+msgid "Current password is incorrect"
+msgstr "Mật khẩu hiện tại không chính xác"
+
+#: app/routes/auth.py:191
+msgid "Your password has been updated"
+msgstr "Mật khẩu của bạn đã được cập nhật"
+
+#: app/routes/auth.py:211
+msgid "Check your email for instructions"
+msgstr "Kiểm tra email của bạn để xem hướng dẫn"
+
+#: app/routes/auth.py:214
+msgid "Failed to send reset email. Please try again later."
+msgstr "Không thể gửi email đặt lại mật khẩu. Vui lòng thử lại sau."
+
+#: app/routes/auth.py:216
+msgid "If that email is in our database, we sent a reset link"
+msgstr "Nếu địa chỉ email đó có trong cơ sở dữ liệu của chúng tôi, chúng tôi sẽ gửi cho bạn một liên kết đặt lại mật khẩu"
+
+#: app/routes/auth.py:237
+msgid "Email is required."
+msgstr "Email là bắt buộc."
+
+#: app/routes/auth.py:247
+msgid "A new confirmation email has been sent."
+msgstr "Một email xác nhận mới đã được gửi."
+
+#: app/routes/auth.py:250
+msgid "Failed to send confirmation email. Please try again later."
+msgstr "Không thể gửi email xác nhận. Vui lòng thử lại sau."
+
+#: app/routes/auth.py:252
+msgid "If that email is in our database and not confirmed, we sent a link."
+msgstr "Nếu địa chỉ email đó có trong cơ sở dữ liệu của chúng tôi và chưa được xác nhận, chúng tôi sẽ gửi đường dẫn."
+
+#: app/routes/auth.py:264
+msgid "The confirmation link is invalid or has expired."
+msgstr "Liên kết xác nhận không hợp lệ hoặc đã hết hạn."
+
+#: app/routes/auth.py:270 app/routes/auth.py:299
+msgid "User not found."
+msgstr "Không tìm thấy người dùng."
+
+#: app/routes/auth.py:274
+msgid "Your email has already been confirmed."
+msgstr "Email của bạn đã được xác nhận."
+
+#: app/routes/auth.py:282
+msgid "Your email has been confirmed. You can now log in."
+msgstr "Email của bạn đã được xác nhận. Bạn có thể đăng nhập ngay bây giờ."
+
+#: app/routes/auth.py:293
+msgid "The reset link is invalid or has expired."
+msgstr "Liên kết đặt lại không hợp lệ hoặc đã hết hạn."
+
+#: app/routes/auth.py:306
+msgid "Your password has been reset."
+msgstr "Mật khẩu của bạn đã được đặt lại."
+
+#: app/routes/content.py:206
+msgid "An error occurred while searching for subtitles."
+msgstr "Đã xảy ra lỗi trong quá trình tìm kiếm phụ đề."
+
+#: app/routes/main.py:23 app/routes/main.py:90
+msgid "Please log in to access this page."
+msgstr "Vui lòng đăng nhập để truy cập trang này."
+
+#: app/routes/main.py:174
+msgid "Preferred languages updated successfully!"
+msgstr "Ngôn ngữ ưu tiên đã được cập nhật thành công!"
+
+#: app/routes/main.py:179
+msgid "Failed to update language."
+msgstr "Không thể cập nhật ngôn ngữ."
+
+#: app/routes/main.py:211
+msgid "Activity record not found."
+msgstr "Không tìm thấy bản ghi hoạt động."
+
+#: app/routes/main.py:221
+msgid "You do not have permission to delete this activity record."
+msgstr "Bạn không có quyền xóa bản ghi hoạt động này."
+
+#: app/routes/main.py:227
+msgid "Activity record deleted successfully."
+msgstr "Bản ghi hoạt động đã được xóa thành công."
+
+#: app/routes/main.py:231
+msgid "Error deleting activity record. Please try again."
+msgstr "Không thể xóa bản ghi hoạt động. Vui lòng thử lại."
+
+#: app/routes/main.py:249
+msgid "Username confirmation does not match. Account not deleted."
+msgstr "Xác nhận tên người dùng không khớp. Tài khoản không bị xóa."
+
+#: app/routes/main.py:270
+msgid "Your account has been permanently deleted."
+msgstr "Tài khoản của bạn đã bị xóa vĩnh viễn."
+
+#: app/routes/main.py:276
+msgid "Error deleting account. Please try again or contact support."
+msgstr "Không thể xóa tài khoản. Vui lòng thử lại hoặc liên hệ hỗ trợ."
+
+#: app/routes/providers.py:22 app/routes/providers.py:75
+#, python-format
+msgid "Provider %(name)s not found"
+msgstr "Không tìm thấy nhà cung cấp %(name)s"
+
+#: app/routes/providers.py:49
+#, python-format
+msgid "%(name)s settings updated!"
+msgstr "Đã cập nhật cài đặt %(name)s!"
+
+#: app/routes/providers.py:60
+#, python-format
+msgid "Successfully connected to %(name)s!"
+msgstr "Đã kết nối thành công với %(name)s!"
+
+#: app/routes/providers.py:62
+#, python-format
+msgid "Authentication failed: %(error)s"
+msgstr "Xác thực không thành công: %(error)s"
+
+#: app/routes/providers.py:64
+#, python-format
+msgid "Error connecting to %(name)s: %(error)s"
+msgstr "Lỗi kết nối với %(name)s: %(error)s"
+
+#: app/routes/providers.py:91
+#, python-format
+msgid "Disconnected from %(name)s"
+msgstr "Đã ngắt kết nối khỏi %(name)s"
+
+#: app/routes/providers.py:93
+#, python-format
+msgid "Error disconnecting: %(error)s"
+msgstr "Lỗi ngắt kết nối: %(error)s"
+
+#: app/routes/providers.py:119 app/routes/providers.py:202
+msgid "Missing required parameters"
+msgstr "Thiếu tham số bắt buộc"
+
+#: app/routes/providers.py:164
+msgid "Subtitle selected successfully!"
+msgstr "Đã chọn phụ đề thành công!"
+
+#: app/routes/providers.py:167
+#, python-format
+msgid "Error selecting subtitle: %(error)s"
+msgstr "Lỗi khi chọn phụ đề: %(error)s"
+
+#: app/routes/providers.py:189
+msgid "Cannot link subtitle: video has no hash"
+msgstr "Không thể liên kết phụ đề: video không có mã hash"
+
+#: app/routes/providers.py:225
+msgid "This subtitle is already linked to this video version"
+msgstr "Phụ đề này đã được liên kết với phiên bản video này"
+
+#: app/routes/providers.py:312
+msgid "Subtitle successfully linked to this video version!"
+msgstr "Phụ đề đã được liên kết thành công với phiên bản video này!"
+
+#: app/routes/providers.py:316
+msgid "Error linking subtitle"
+msgstr "Lỗi liên kết phụ đề"
+
+#: app/routes/subtitles.py:730
+msgid "Content ID must be either IMDB ID (starting with \"tt\") or Kitsu ID (format \"kitsu:12345\") or MAL ID (format \"mal:12345\")"
+msgstr "Content ID phải là IMDB ID (bắt đầu bằng \"tt\") hoặc Kitsu ID (định dạng \"kitsu:12345\") hoặc MAL ID (định dạng \"mal:12345\")"
+
+#: app/routes/subtitles.py:740
+msgid "Episode number is required for series"
+msgstr "Phim bộ bắt buộc phải có Số tập"
+
+#: app/routes/subtitles.py:831
+msgid "These subtitles already exist for this content and video version."
+msgstr "Phụ đề cho nội dung và phiên bản video này đã có sẵn."
+
+#: app/routes/subtitles.py:862
+msgid "Server error: Cloudinary storage is not properly configured."
+msgstr "Lỗi máy chủ: Cấu hình lưu trữ Cloudinary chưa chính xác."
+
+#: app/routes/subtitles.py:888
+#, python-format
+msgid "Error processing/uploading subtitle: %(error)s"
+msgstr "Lỗi khi xử lý/tải phụ đề: %(error)s"
+
+#: app/routes/subtitles.py:897
+msgid "Internal error: Subtitle path not determined."
+msgstr "Lỗi nội bộ: Không xác định được đường dẫn phụ đề."
+
+#: app/routes/subtitles.py:956
+msgid "Subtitle uploaded and selected successfully!"
+msgstr "Phụ đề đã được tải lên và chọn thành công!"
+
+#: app/routes/subtitles.py:960
+msgid "Subtitle uploaded, but failed to auto-select."
+msgstr "Phụ đề đã được tải lên nhưng không tự động chọn được."
+
+#: app/routes/subtitles.py:972
+msgid "Error uploading subtitle. Please try again."
+msgstr "Lỗi khi tải phụ đề lên. Vui lòng thử lại."
+
+#: app/routes/subtitles.py:1025
+msgid "Subtitle selection updated."
+msgstr "Đã cập nhật tùy chọn phụ đề."
+
+#: app/routes/subtitles.py:1029
+msgid "Error updating subtitle selection."
+msgstr "Lỗi khi cập nhật lựa chọn phụ đề."
+
+#: app/routes/subtitles.py:1051
+msgid "Voting is not available for this type of subtitle."
+msgstr "Chức năng bình chọn không khả dụng cho loại phụ đề này."
+
+#: app/routes/subtitles.py:1066 templates/main/content_detail.html:328
+#: templates/main/my_subtitles.html:142
+#: templates/main/selected_subtitles.html:168
+#: templates/main/voted_subtitles.html:140
+msgid "Vote removed."
+msgstr "Đã xóa bình chọn."
+
+#: app/routes/subtitles.py:1071 templates/main/content_detail.html:330
+#: templates/main/my_subtitles.html:144
+#: templates/main/selected_subtitles.html:170
+#: templates/main/voted_subtitles.html:142
+msgid "Vote updated."
+msgstr "Đã cập nhật bình chọn."
+
+#: app/routes/subtitles.py:1077 templates/main/content_detail.html:329
+#: templates/main/my_subtitles.html:143
+#: templates/main/selected_subtitles.html:169
+#: templates/main/voted_subtitles.html:141
+msgid "Vote recorded."
+msgstr "Đã ghi nhận bình chọn."
+
+#: app/routes/subtitles.py:1088 templates/main/content_detail.html:331
+#: templates/main/my_subtitles.html:145
+#: templates/main/selected_subtitles.html:171
+#: templates/main/voted_subtitles.html:143
+msgid "Error processing vote."
+msgstr "Lỗi khi xử lý bình chọn."
+
+#: app/routes/subtitles.py:1106
+msgid "You do not have permission to delete this selection."
+msgstr "Bạn không có quyền xóa lựa chọn này."
+
+#: app/routes/subtitles.py:1112
+msgid "Selection deleted successfully."
+msgstr "Đã xóa lựa chọn thành công."
+
+#: app/routes/subtitles.py:1116
+msgid "Error deleting selection."
+msgstr "Lỗi khi xóa lựa chọn."
+
+#: app/routes/subtitles.py:1149
+msgid "All subtitle selections for this content have been reset."
+msgstr "Tất cả các lựa chọn phụ đề cho nội dung này đã được đặt lại."
+
+#: app/routes/subtitles.py:1155
+msgid "No selections to reset for this content."
+msgstr "Không có lựa chọn nào để đặt lại cho nội dung này."
+
+#: app/routes/subtitles.py:1390
+msgid "You do not have permission to delete this subtitle."
+msgstr "Bạn không có quyền xóa phụ đề này."
+
+#: app/routes/subtitles.py:1454
+msgid "Subtitle deleted successfully."
+msgstr "Đã xóa phụ đề thành công."
+
+#: app/routes/subtitles.py:1458
+msgid "Error deleting subtitle."
+msgstr "Lỗi khi xóa phụ đề."
+
+#: app/routes/subtitles.py:1479
+msgid "You do not have permission to download subtitles."
+msgstr "Bạn không có quyền tải xuống phụ đề."
+
+#: app/routes/subtitles.py:1510
+#, python-format
+msgid "Admin's %(provider)s account is not configured/active; cannot download this linked subtitle."
+msgstr "Tài khoản %(provider)s của Admin chưa được cấu hình hoặc chưa kích hoạt; không thể tải phụ đề liên kết này."
+
+#: app/routes/subtitles.py:1525 app/routes/subtitles.py:1535
+#, python-format
+msgid "Error downloading from %(provider)s: %(error)s"
+msgstr "Lỗi khi tải xuống từ %(provider)s: %(error)s"
+
+#: app/routes/subtitles.py:1532
+#, python-format
+msgid "%(provider)s authentication expired. Please log in again in account settings."
+msgstr "Xác thực %(provider)s đã hết hạn. Vui lòng đăng nhập lại trong phần cài đặt tài khoản."
+
+#: app/routes/subtitles.py:1561
+msgid "Target video hash is missing."
+msgstr "Thiếu mã Hash của video mục tiêu."
+
+#: app/routes/subtitles.py:1564
+msgid "Activity ID is missing."
+msgstr "Thiếu Activity ID."
+
+#: app/routes/subtitles.py:1570
+msgid "Invalid Activity ID format."
+msgstr "Định dạng Activity ID không hợp lệ."
+
+#: app/routes/subtitles.py:1589
+msgid "Content ID mismatch between subtitle and activity."
+msgstr "Content ID không khớp giữa phụ đề và hoạt động."
+
+#: app/routes/subtitles.py:1593
+msgid "This operation is not applicable to provider-linked entries in this manner."
+msgstr "Thao tác này không áp dụng cho các mục được liên kết với nhà cung cấp theo cách này."
+
+#: app/routes/subtitles.py:1596
+msgid "Original subtitle does not have a file path, cannot mark as compatible."
+msgstr "Phụ đề gốc không có đường dẫn tệp, không thể đánh dấu là tương thích."
+
+#: app/routes/subtitles.py:1614
+msgid "A compatible subtitle entry for this hash already exists. Selecting it."
+msgstr "Một phụ đề tương thích cho mã Hash này đã tồn tại. Đang chọn nó."
+
+#: app/routes/subtitles.py:1633
+msgid "Subtitle marked as compatible with the current video version."
+msgstr "Phụ đề đã được đánh dấu là tương thích với phiên bản video hiện tại."
+
+#: app/routes/subtitles.py:1674
+msgid "An error occurred."
+msgstr "Đã xảy ra lỗi."
+
+#: app/routes/utils.py:908
+msgid "OpenSubtitles authentication expired. Please log in again in account settings."
+msgstr "Xác thực OpenSubtitles đã hết hạn. Vui lòng đăng nhập lại trong phần cài đặt tài khoản."
+
+#: templates/_pagination.html:6
+msgid "Previous"
+msgstr "Trước"
+
+#: templates/_pagination.html:20
+msgid "Next"
+msgstr "Tiếp"
+
+#: templates/_provider_status.html:16
+msgid "Connected"
+msgstr "Đã kết nối"
+
+#: templates/_provider_status.html:20
+msgid "Not Connected"
+msgstr "Chưa kết nối"
+
+#: templates/_provider_status.html:24
+msgid "Hash Matching"
+msgstr "Khớp mã Hash"
+
+#: templates/_provider_status.html:34
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: templates/_provider_status.html:39
+#, python-format
+msgid "Disconnect from %(name)s?"
+msgstr "Ngắt kết nối khỏi %(name)s?"
+
+#: templates/_provider_status.html:42
+msgid "Disconnect"
+msgstr "Ngắt kết nối"
+
+#: templates/_provider_status.html:49 templates/_provider_status.html:73
+msgid "Connect"
+msgstr "Kết nối"
+
+#: templates/_provider_status.html:62
+#, python-format
+msgid "Connect to %(name)s"
+msgstr "Kết nối tới %(name)s"
+
+#: templates/_provider_status.html:71 templates/_provider_status.html:119
+#: templates/main/account_settings.html:204
+msgid "Cancel"
+msgstr "Hủy"
+
+#: templates/_provider_status.html:87
+#, python-format
+msgid "%(name)s Settings"
+msgstr "Cài đặt %(name)s"
+
+#: templates/_provider_status.html:104 templates/providers/subdl_form.html:15
+#: templates/providers/subsource_form.html:14
+msgid "Try to provide ASS/SSA format"
+msgstr "Cố gắng cung cấp định dạng ASS/SSA"
+
+#: templates/_provider_status.html:107
+msgid "Enable this to always offer ASS format option for this provider."
+msgstr "Bật tính năng này để luôn cung cấp tùy chọn định dạng ASS cho nhà cung cấp này."
+
+#: templates/_provider_status.html:114
+msgid "No additional settings available for this provider."
+msgstr "Không có cài đặt bổ sung cho nhà cung cấp này."
+
+#: templates/_provider_status.html:121
+msgid "Save"
+msgstr "Lưu"
+
+#: templates/_provider_subtitle_list_item.html:24
+#: templates/main/selected_subtitles.html:56
+#: templates/main/selected_subtitles.html:68
+#: templates/main/voted_subtitles.html:54
+msgid "Uploader:"
+msgstr "Người tải lên:"
+
+#: templates/_provider_subtitle_list_item.html:26
+msgid "Rating:"
+msgstr "Đánh giá:"
+
+#: templates/_provider_subtitle_list_item.html:29
+msgid "Downloads:"
+msgstr "Lượt tải:"
+
+#: templates/_provider_subtitle_list_item.html:34
+#: templates/main/selected_subtitles.html:93
+msgid "Hash Match"
+msgstr "Khớp mã Hash"
+
+#: templates/_provider_subtitle_list_item.html:37
+#: templates/main/selected_subtitles.html:70
+msgid "AI Translated"
+msgstr "Được dịch bởi AI"
+
+#: templates/_provider_subtitle_list_item.html:40
+msgid "Hearing Impaired"
+msgstr "Dành cho người khiếm thính"
+
+#: templates/_provider_subtitle_list_item.html:50
+#: templates/_subtitle_list_item.html:72
+msgid "Selected"
+msgstr "Đã chọn"
+
+#: templates/_provider_subtitle_list_item.html:62
+msgid "Link this subtitle to the current video version for the community"
+msgstr "Liên kết phụ đề này với phiên bản video hiện tại cho cộng đồng"
+
+#: templates/_provider_subtitle_list_item.html:63
+#: templates/_subtitle_list_item.html:89
+msgid "Link"
+msgstr "Liên kết"
+
+#: templates/_provider_subtitle_list_item.html:78
+#: templates/_subtitle_list_item.html:77
+msgid "Select"
+msgstr "Chọn"
+
+#: templates/_subtitle_list_item.html:28
+#, python-format
+msgid "Sourced from %(provider)s by %(user)s"
+msgstr "Nguồn từ %(provider)s bởi %(user)s"
+
+#: templates/_subtitle_list_item.html:30
+#, python-format
+msgid "Sourced from %(source)s"
+msgstr "Nguồn từ %(source)s"
+
+#: templates/_subtitle_list_item.html:43
+#, python-format
+msgid "Video Hash: %(hash)s"
+msgstr "Mã Hash của Video: %(hash)s"
+
+#: templates/_subtitle_list_item.html:45
+msgid "Matches Current Video"
+msgstr "Khớp với video hiện tại"
+
+#: templates/_subtitle_list_item.html:45
+msgid "Different Video Version"
+msgstr "Phiên bản video khác nhau"
+
+#: templates/_subtitle_list_item.html:48
+msgid "No Hash Specific"
+msgstr "Không có mã Hash cụ thể"
+
+#: templates/_subtitle_list_item.html:60 templates/main/my_subtitles.html:74
+#: templates/main/selected_subtitles.html:101
+#: templates/main/voted_subtitles.html:73
+#: templates/main/voted_subtitles.html:79
+msgid "Upvote"
+msgstr "Bình chọn tốt"
+
+#: templates/_subtitle_list_item.html:63 templates/main/my_subtitles.html:77
+#: templates/main/selected_subtitles.html:104
+#: templates/main/voted_subtitles.html:73
+#: templates/main/voted_subtitles.html:82
+msgid "Downvote"
+msgstr "Bình chọn tệ"
+
+#: templates/_subtitle_list_item.html:88
+#, python-format
+msgid "Mark this subtitle as compatible with the current video version (%(hash)s...)"
+msgstr "Đánh dấu phụ đề này tương thích với phiên bản video hiện tại (%(hash)s...)"
+
+#: templates/_subtitle_list_item.html:103
+msgid "Are you sure you want to delete this subtitle? This action cannot be undone."
+msgstr "Bạn có chắc chắn muốn xóa phụ đề này? Hành động này không thể hoàn tác."
+
+#: templates/_subtitle_list_item.html:106
+msgid "Delete Subtitle"
+msgstr "Xóa phụ đề"
+
+#: templates/base.html:53 templates/main/dashboard.html:3
+#: templates/main/upload_subtitle.html:18
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+#: templates/base.html:56 templates/main/account_settings.html:145
+#: templates/main/dashboard.html:101
+msgid "Install Addon"
+msgstr "Cài đặt Addon"
+
+#: templates/base.html:76
+msgid "Upload Subtitles"
+msgstr "Tải lên phụ đề"
+
+#: templates/base.html:84 templates/main/my_subtitles.html:4
+#: templates/main/my_subtitles.html:9
+msgid "My Subtitles"
+msgstr "Phụ đề của tôi"
+
+#: templates/base.html:86 templates/main/account_settings.html:4
+#: templates/main/account_settings.html:9
+msgid "Account Settings"
+msgstr "Cài đặt tài khoản"
+
+#: templates/base.html:88
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: templates/auth/login.html:11 templates/base.html:93
+#: templates/main/index.html:13
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: templates/base.html:120
+msgid "Like my addon? Consider"
+msgstr "Thích addon của tôi? Hãy cân nhắc"
+
+#: templates/base.html:120
+msgid "buying me a coffee"
+msgstr "donate cho tôi"
+
+#: templates/auth/change_password.html:26 templates/auth/reset_password.html:27
+msgid "Password Tips"
+msgstr "Mẹo đặt mật khẩu"
+
+#: templates/auth/change_password.html:28 templates/auth/reset_password.html:29
+msgid "Use at least 8 characters"
+msgstr "Sử dụng ít nhất 8 ký tự"
+
+#: templates/auth/change_password.html:29 templates/auth/reset_password.html:30
+msgid "Include uppercase and lowercase letters"
+msgstr "Bao gồm chữ hoa và chữ thường"
+
+#: templates/auth/change_password.html:30 templates/auth/reset_password.html:31
+msgid "Add numbers and special characters"
+msgstr "Thêm số và ký tự đặc biệt"
+
+#: templates/auth/change_password.html:31 templates/auth/reset_password.html:32
+msgid "Avoid using personal information"
+msgstr "Tránh sử dụng thông tin cá nhân"
+
+#: templates/auth/change_password.html:40
+msgid "Back to Account Settings"
+msgstr "Quay lại Cài đặt tài khoản"
+
+#: templates/auth/login.html:26
+msgid "Forgot your password?"
+msgstr "Quên mật khẩu?"
+
+#: templates/auth/login.html:29
+msgid "Didn't receive confirmation email?"
+msgstr "Không nhận được Email xác nhận?"
+
+#: templates/auth/login.html:32 templates/providers/opensubtitles_form.html:7
+msgid "Don't have an account?"
+msgstr "Chưa có tài khoản?"
+
+#: templates/auth/login.html:32 templates/providers/opensubtitles_form.html:7
+msgid "Register here"
+msgstr "Đăng ký tại đây"
+
+#: templates/auth/register.html:11
+msgid "Create an Account"
+msgstr "Tạo tài khoản"
+
+#: templates/auth/register.html:28
+msgid "Already have an account?"
+msgstr "Đã có tài khoản?"
+
+#: templates/auth/register.html:28
+#: templates/auth/reset_password_request.html:26
+msgid "Login here"
+msgstr "Đăng nhập tại đây"
+
+#: templates/auth/register.html:40
+msgid "Why Register?"
+msgstr "Tại sao nên đăng ký?"
+
+#: templates/auth/register.html:46
+msgid "Get your personal Stremio addon installation link"
+msgstr "Nhận liên kết cài đặt addon Stremio cá nhân của bạn"
+
+#: templates/auth/register.html:50
+msgid "Upload and share subtitles with the community"
+msgstr "Tải lên và chia sẻ phụ đề với cộng đồng"
+
+#: templates/auth/register.html:54
+msgid "Vote on subtitle quality to help others find the best translations"
+msgstr "Bình chọn chất lượng phụ đề để giúp người khác tìm thấy bản dịch tốt nhất"
+
+#: templates/auth/register.html:58
+msgid "Track your subtitle history and contributions"
+msgstr "Theo dõi lịch sử phụ đề và đóng góp của bạn"
+
+#: templates/auth/resend_confirmation.html:10
+#: templates/auth/resend_confirmation.html:26
+msgid "Resend Confirmation Email"
+msgstr "Gửi lại Email xác nhận"
+
+#: templates/auth/resend_confirmation.html:13
+msgid "If you didn't receive the confirmation email or the link has expired, you can request a new one."
+msgstr "Nếu bạn không nhận được Email xác nhận hoặc liên kết đã hết hạn, bạn có thể yêu cầu một liên kết mới."
+
+#: templates/auth/resend_confirmation.html:19
+msgid "Email Address"
+msgstr "Địa chỉ Email"
+
+#: templates/auth/resend_confirmation.html:21
+msgid "Enter the email address you used to register."
+msgstr "Nhập địa chỉ Email bạn đã dùng để đăng ký."
+
+#: templates/auth/resend_confirmation.html:32
+msgid "Back to Login"
+msgstr "Quay lại Đăng nhập"
+
+#: templates/auth/reset_password.html:11
+msgid "Set New Password"
+msgstr "Thiết lập mật khẩu mới"
+
+#: templates/auth/reset_password.html:14
+msgid "Please enter your new password."
+msgstr "Vui lòng nhập mật khẩu mới của bạn."
+
+#: templates/auth/reset_password_request.html:14
+msgid "Enter your email address and we'll send you instructions to reset your password."
+msgstr "Nhập địa chỉ Email của bạn và chúng tôi sẽ gửi hướng dẫn để đặt lại mật khẩu."
+
+#: templates/auth/reset_password_request.html:26
+msgid "Remember your password?"
+msgstr "Đã nhớ mật khẩu?"
+
+#: templates/email/confirm_email.html:5
+msgid "Confirm Your Email"
+msgstr "Xác nhận Email của bạn"
+
+#: templates/email/confirm_email.html:50 templates/email/confirm_email.txt:1
+#: templates/email/reset_password.html:50 templates/email/reset_password.txt:1
+#, python-format
+msgid "Hello %(username)s,"
+msgstr "Xin chào %(username)s,"
+
+#: templates/email/confirm_email.html:51
+msgid "Thank you for registering with Stremio Community Subtitles! Please confirm your email address by clicking the button below:"
+msgstr "Cảm ơn bạn đã đăng ký Stremio Community Subtitles! Vui lòng xác nhận địa chỉ Email của bạn bằng cách nhấn vào nút bên dưới:"
+
+#: templates/email/confirm_email.html:54
+msgid "Confirm Email"
+msgstr "Xác nhận Email"
+
+#: templates/email/confirm_email.html:57 templates/email/reset_password.html:57
+msgid "If the button doesn't work, you can also copy and paste the following link into your browser:"
+msgstr "Nếu nút không hoạt động, bạn cũng có thể sao chép và dán liên kết sau vào trình duyệt:"
+
+#: templates/email/confirm_email.html:60 templates/email/confirm_email.txt:7
+msgid "This link will expire in 24 hours."
+msgstr "Liên kết này sẽ hết hạn trong 24 giờ."
+
+#: templates/email/confirm_email.html:62 templates/email/confirm_email.txt:9
+msgid "If you did not register for Stremio Community Subtitles, please ignore this email."
+msgstr "Nếu bạn không đăng ký Stremio Community Subtitles, vui lòng bỏ qua Email này."
+
+#: templates/email/confirm_email.html:64 templates/email/confirm_email.txt:11
+#: templates/email/reset_password.html:64 templates/email/reset_password.txt:11
+msgid "Best regards,"
+msgstr "Trân trọng,"
+
+#: templates/email/confirm_email.html:64 templates/email/confirm_email.txt:12
+#: templates/email/reset_password.html:64 templates/email/reset_password.txt:12
+msgid "The Stremio Community Subtitles Team"
+msgstr "Stremio Community Subtitles Team"
+
+#: templates/email/confirm_email.html:67 templates/email/confirm_email.txt:15
+#: templates/email/reset_password.html:67 templates/email/reset_password.txt:15
+msgid "This is an automated message, please do not reply to this email."
+msgstr "Đây là tin nhắn tự động, vui lòng không trả lời Email này."
+
+#: templates/email/confirm_email.txt:3
+msgid "Thank you for registering with Stremio Community Subtitles! Please confirm your email address by clicking the link below:"
+msgstr "Cảm ơn bạn đã đăng ký Stremio Community Subtitles! Vui lòng xác nhận địa chỉ Email của bạn bằng cách nhấn vào liên kết bên dưới:"
+
+#: templates/email/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Đặt lại mật khẩu"
+
+#: templates/email/reset_password.html:51
+msgid "You have requested to reset your password. Please click the button below to set a new password:"
+msgstr "Bạn đã yêu cầu đặt lại mật khẩu. Vui lòng nhấn vào nút bên dưới để thiết lập mật khẩu mới:"
+
+#: templates/email/reset_password.html:60 templates/email/reset_password.txt:7
+msgid "This link will expire in 1 hour."
+msgstr "Liên kết này sẽ hết hạn trong 1 giờ."
+
+#: templates/email/reset_password.html:62 templates/email/reset_password.txt:9
+msgid "If you did not request a password reset, please ignore this email and your password will remain unchanged."
+msgstr "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua Email này và mật khẩu của bạn sẽ được giữ nguyên."
+
+#: templates/email/reset_password.txt:3
+msgid "You have requested to reset your password. Please click the link below to set a new password:"
+msgstr "Bạn đã yêu cầu đặt lại mật khẩu. Vui lòng nhấn vào liên kết bên dưới để thiết lập mật khẩu mới:"
+
+#: templates/main/account_settings.html:11
+msgid "Manage your account preferences and settings."
+msgstr "Quản lý các tùy chọn và cài đặt tài khoản của bạn."
+
+#: templates/main/account_settings.html:20
+msgid "Language Preferences"
+msgstr "Tùy chọn ngôn ngữ"
+
+#: templates/main/account_settings.html:30
+msgid "This setting determines which languages will be used to search subtitles by the addon."
+msgstr "Cài đặt này xác định ngôn ngữ nào sẽ được addon sử dụng để tìm kiếm phụ đề."
+
+#: templates/main/account_settings.html:40
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: templates/main/account_settings.html:45
+msgid "Show no subtitles message"
+msgstr "Hiển thị thông báo không có phụ đề"
+
+#: templates/main/account_settings.html:46
+msgid "When enabled, subtitles entry will always appear in Stremio, even if there are no subtitles available"
+msgstr "Khi bật, mục phụ đề sẽ luôn xuất hiện trong Stremio, ngay cả khi không có phụ đề khả dụng"
+
+#: templates/main/account_settings.html:51
+#: templates/main/account_settings.html:66
+#: templates/main/account_settings.html:81
+msgid "Setting updated successfully"
+msgstr "Đã cập nhật cài đặt thành công"
+
+#: templates/main/account_settings.html:52
+#: templates/main/account_settings.html:67
+#: templates/main/account_settings.html:82
+msgid "Failed to update setting"
+msgstr "Không thể cập nhật cài đặt"
+
+#: templates/main/account_settings.html:53
+#: templates/main/account_settings.html:68
+#: templates/main/account_settings.html:83
+msgid "Error updating setting"
+msgstr "Lỗi khi cập nhật cài đặt"
+
+#: templates/main/account_settings.html:60
+msgid "Prioritize .ass subtitles"
+msgstr "Ưu tiên phụ đề .ass"
+
+#: templates/main/account_settings.html:61
+msgid "When enabled, .ass/.ssa subtitles will appear first in Stremio's subtitle list"
+msgstr "Khi bật, các phụ đề .ass/.ssa sẽ xuất hiện đầu tiên trong danh sách phụ đề của Stremio"
+
+#: templates/main/account_settings.html:75
+msgid "Prioritize forced subtitles"
+msgstr "Ưu tiên phụ đề bắt buộc"
+
+#: templates/main/account_settings.html:76
+msgid "When enabled, forced/foreign parts subtitles will be prioritized"
+msgstr "Khi bật, phụ đề bắt buộc/phụ đề nước ngoài sẽ được ưu tiên"
+
+#: templates/main/account_settings.html:94
+msgid "Subtitle Providers"
+msgstr "Nhà cung cấp phụ đề"
+
+#: templates/main/account_settings.html:97
+msgid "Connect to external subtitle providers for enhanced search capabilities."
+msgstr "Kết nối với các nhà cung cấp phụ đề bên ngoài để tăng cường khả năng tìm kiếm."
+
+#: templates/main/account_settings.html:112
+msgid "Account Information"
+msgstr "Thông tin tài khoản"
+
+#: templates/main/account_settings.html:117
+msgid "Username:"
+msgstr "Tên đăng nhập:"
+
+#: templates/main/account_settings.html:120
+msgid "Email:"
+msgstr "Email:"
+
+#: templates/main/account_settings.html:123
+msgid "Member Since:"
+msgstr "Thành viên từ:"
+
+#: templates/main/account_settings.html:126
+msgid "Current Languages:"
+msgstr "Ngôn ngữ hiện tại:"
+
+#: templates/main/account_settings.html:132
+msgid "No languages selected"
+msgstr "Chưa chọn ngôn ngữ nào"
+
+#: templates/main/account_settings.html:141 templates/main/dashboard.html:97
+msgid "Addon Installation"
+msgstr "Cài đặt Addon"
+
+#: templates/main/account_settings.html:144
+msgid "Need to install your addon in Stremio?"
+msgstr "Cần cài đặt addon của bạn vào Stremio?"
+
+#: templates/main/account_settings.html:151
+msgid "Security"
+msgstr "Bảo mật"
+
+#: templates/main/account_settings.html:154
+msgid "Manage your account security settings:"
+msgstr "Quản lý cài đặt bảo mật tài khoản:"
+
+#: templates/main/account_settings.html:164
+msgid "Danger Zone"
+msgstr "Khu vực nguy hiểm"
+
+#: templates/main/account_settings.html:167
+msgid "Warning:"
+msgstr "Cảnh báo:"
+
+#: templates/main/account_settings.html:167
+msgid "This action cannot be undone."
+msgstr "Hành động này không thể hoàn tác."
+
+#: templates/main/account_settings.html:168
+msgid "Deleting your account will permanently remove all your data including uploaded subtitles, selections, and votes."
+msgstr "Xóa tài khoản sẽ loại bỏ vĩnh viễn tất cả dữ liệu của bạn bao gồm phụ đề đã tải lên, các lựa chọn và bình chọn."
+
+#: templates/main/account_settings.html:170
+#: templates/main/account_settings.html:181
+msgid "Delete Account"
+msgstr "Xóa tài khoản"
+
+#: templates/main/account_settings.html:185
+msgid "Are you absolutely sure?"
+msgstr "Bạn có hoàn toàn chắc chắn không?"
+
+#: templates/main/account_settings.html:186
+msgid "This will permanently delete your account and all associated data:"
+msgstr "Hành động này sẽ xóa vĩnh viễn tài khoản và tất cả dữ liệu liên quan:"
+
+#: templates/main/account_settings.html:188
+msgid "All uploaded subtitles"
+msgstr "Tất cả phụ đề đã tải lên"
+
+#: templates/main/account_settings.html:189
+msgid "All subtitle selections"
+msgstr "Tất cả các lựa chọn phụ đề"
+
+#: templates/main/account_settings.html:190
+msgid "All votes"
+msgstr "Tất cả bình chọn"
+
+#: templates/main/account_settings.html:191
+msgid "Activity history"
+msgstr "Lịch sử hoạt động"
+
+#: templates/main/account_settings.html:192
+msgid "Provider connections"
+msgstr "Kết nối nhà cung cấp"
+
+#: templates/main/account_settings.html:194
+msgid "This action cannot be undone!"
+msgstr "Hành động này không thể hoàn tác!"
+
+#: templates/main/account_settings.html:198
+#, python-format
+msgid "Type your username %(username)s to confirm:"
+msgstr "Nhập tên đăng nhập %(username)s của bạn để xác nhận:"
+
+#: templates/main/account_settings.html:206
+msgid "Delete My Account"
+msgstr "Xóa tài khoản của tôi"
+
+#: templates/main/configure.html:3
+msgid "Configure Addon"
+msgstr "Cấu hình Addon"
+
+#: templates/main/configure.html:8
+msgid "Configure Stremio Addon"
+msgstr "Cấu hình Addon Stremio"
+
+#: templates/main/configure.html:10
+msgid "Follow the instructions below to install the Community Subtitles addon in your Stremio application."
+msgstr "Làm theo hướng dẫn bên dưới để cài đặt addon Community Subtitles vào ứng dụng Stremio của bạn."
+
+#: templates/main/configure.html:19
+msgid "Your Personal Addon Link"
+msgstr "Liên kết Addon cá nhân của bạn"
+
+#: templates/main/configure.html:25
+msgid "This is your personal addon link. Do not share it with others as it's tied to your account."
+msgstr "Đây là liên kết addon cá nhân của bạn. Không chia sẻ nó với người khác vì nó gắn liền với tài khoản của bạn."
+
+#: templates/main/configure.html:31
+msgid "Copy"
+msgstr "Sao chép"
+
+#: templates/main/configure.html:38
+msgid "Install in Stremio"
+msgstr "Cài đặt vào Stremio"
+
+#: templates/main/configure.html:44
+msgid "There was a problem generating your addon link. Please contact support."
+msgstr "Có lỗi khi tạo liên kết addon của bạn. Vui lòng liên hệ bộ phận hỗ trợ."
+
+#: templates/main/configure.html:52
+msgid "Installation Instructions"
+msgstr "Hướng dẫn cài đặt"
+
+#: templates/main/configure.html:57
+msgid "Open Stremio"
+msgstr "Mở Stremio"
+
+#: templates/main/configure.html:57
+msgid "on your device"
+msgstr "trên thiết bị của bạn"
+
+#: templates/main/configure.html:60
+msgid "Click the \"Install in Stremio\" button"
+msgstr "Nhấn vào nút \"Cài đặt vào Stremio\""
+
+#: templates/main/configure.html:60
+msgid "above, or copy the addon URL and add it manually in Stremio"
+msgstr "ở trên, hoặc sao chép URL addon và thêm thủ công vào Stremio"
+
+#: templates/main/configure.html:63
+msgid "Confirm the installation"
+msgstr "Xác nhận cài đặt"
+
+#: templates/main/configure.html:63
+msgid "when prompted by Stremio"
+msgstr "khi được Stremio yêu cầu"
+
+#: templates/main/configure.html:66
+msgid "Start watching content"
+msgstr "Bắt đầu xem nội dung"
+
+#: templates/main/configure.html:66
+msgid "with community subtitles"
+msgstr "với phụ đề từ cộng đồng"
+
+#: templates/main/configure.html:76
+msgid "Addon Features"
+msgstr "Các tính năng của Addon"
+
+#: templates/main/configure.html:82
+msgid "Automatic subtitle detection"
+msgstr "Tự động phát hiện phụ đề"
+
+#: templates/main/configure.html:86
+msgid "Community-contributed subtitles"
+msgstr "Phụ đề do cộng đồng đóng góp"
+
+#: templates/main/configure.html:90
+msgid "Quality voting system"
+msgstr "Hệ thống bình chọn chất lượng"
+
+#: templates/main/configure.html:94
+msgid "Multiple language support"
+msgstr "Hỗ trợ nhiều ngôn ngữ"
+
+#: templates/main/configure.html:102
+msgid "Need Help?"
+msgstr "Cần trợ giúp?"
+
+#: templates/main/configure.html:105
+msgid "If you're having trouble installing the addon, try these steps:"
+msgstr "Nếu bạn gặp khó khăn khi cài đặt addon, hãy thử các bước sau:"
+
+#: templates/main/configure.html:107
+msgid "Make sure you have the latest version of Stremio"
+msgstr "Đảm bảo bạn đang sử dụng phiên bản Stremio mới nhất"
+
+#: templates/main/configure.html:108
+msgid "Try copying the URL and adding it manually in Stremio"
+msgstr "Thử sao chép URL và thêm thủ công vào Stremio"
+
+#: templates/main/configure.html:109
+msgid "Restart Stremio and try again"
+msgstr "Khởi động lại Stremio và thử lại"
+
+#: templates/main/content_detail.html:23
+#: templates/main/upload_subtitle.html:106
+msgid "Content Information"
+msgstr "Thông tin nội dung"
+
+#: templates/main/content_detail.html:28
+#: templates/main/upload_subtitle.html:119
+msgid "Type:"
+msgstr "Loại:"
+
+#: templates/main/content_detail.html:30 templates/main/dashboard.html:63
+#: templates/main/upload_subtitle.html:121
+msgid "Series"
+msgstr "Phim bộ"
+
+#: templates/main/content_detail.html:34
+#: templates/main/upload_subtitle.html:125
+msgid "ID:"
+msgstr "ID:"
+
+#: templates/main/content_detail.html:38
+#: templates/main/selected_subtitles.html:92
+#: templates/main/upload_subtitle.html:129
+msgid "Video Hash:"
+msgstr "Mã Hash của video:"
+
+#: templates/main/content_detail.html:44
+msgid "Filename:"
+msgstr "Tên tệp:"
+
+#: templates/main/content_detail.html:50
+#: templates/main/upload_subtitle.html:135
+msgid "Season:"
+msgstr "Mùa:"
+
+#: templates/main/content_detail.html:55
+#: templates/main/upload_subtitle.html:140
+msgid "Episode:"
+msgstr "Số tập:"
+
+#: templates/main/content_detail.html:61
+msgid "Year:"
+msgstr "Năm:"
+
+#: templates/main/content_detail.html:66
+msgid "Runtime:"
+msgstr "Thời lượng:"
+
+#: templates/main/content_detail.html:71
+msgid "Genres:"
+msgstr "Thể loại:"
+
+#: templates/main/content_detail.html:96
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: templates/main/content_detail.html:105
+msgid "Community Subtitles"
+msgstr "Phụ đề cộng đồng"
+
+#: templates/main/content_detail.html:111
+msgid "Reset All Selections"
+msgstr "Đặt lại tất cả lựa chọn"
+
+#: templates/main/content_detail.html:115
+msgid "Upload New"
+msgstr "Tải lên bản mới"
+
+#: templates/main/content_detail.html:130
+msgid "Currently Selected"
+msgstr "Đang được chọn"
+
+#: templates/main/content_detail.html:134
+#: templates/main/content_detail.html:141
+msgid "Auto Selected"
+msgstr "Tự động chọn"
+
+#: templates/main/content_detail.html:136
+#: templates/main/content_detail.html:143
+msgid "User Selected"
+msgstr "Người dùng chọn"
+
+#: templates/main/content_detail.html:139
+msgid "Provider"
+msgstr "Nhà cung cấp"
+
+#: templates/main/content_detail.html:170
+msgid "No subtitle selected for this language."
+msgstr "Chưa có phụ đề nào được chọn cho ngôn ngữ này."
+
+#: templates/main/content_detail.html:218
+msgid "No community subtitles available for this content yet."
+msgstr "Chưa có phụ đề cộng đồng cho nội dung này."
+
+#: templates/main/content_detail.html:220
+msgid "Be the first to upload subtitles"
+msgstr "Hãy là người đầu tiên tải lên phụ đề"
+
+#: templates/main/content_detail.html:229
+msgid "Provider Results"
+msgstr "Kết quả từ nhà cung cấp"
+
+#: templates/main/content_detail.html:265
+msgid "No subtitles found from providers for your criteria and preferred languages."
+msgstr "Không tìm thấy phụ đề từ nhà cung cấp cho tiêu chí và ngôn ngữ ưu tiên của bạn."
+
+#: templates/main/content_detail.html:265
+msgid "Configure providers in your account settings"
+msgstr "Cấu hình nhà cung cấp trong cài đặt tài khoản"
+
+#: templates/main/content_detail.html:265
+msgid "to see results here."
+msgstr "để xem kết quả tại đây."
+
+#: templates/main/dashboard.html:8
+msgid "Your Dashboard"
+msgstr "Bảng điều khiển của bạn"
+
+#: templates/main/dashboard.html:11
+#, python-format
+msgid "Welcome back, %(username)s! Here's your recent activity and subtitle history."
+msgstr "Chào mừng trở lại, %(username)s! Đây là hoạt động gần đây và lịch sử phụ đề của bạn."
+
+#: templates/main/dashboard.html:13
+msgid "Welcome back, Guest! Here's your recent activity and subtitle history."
+msgstr "Chào mừng trở lại, Khách! Đây là hoạt động gần đây và lịch sử phụ đề của bạn."
+
+#: templates/main/dashboard.html:23
+msgid "Recent Activity"
+msgstr "Hoạt động gần đây"
+
+#: templates/main/dashboard.html:24
+msgid "Elements:"
+msgstr "Thành phần:"
+
+#: templates/main/dashboard.html:27
+#, python-format
+msgid "We store only your last %(max)s activities."
+msgstr "Chúng tôi chỉ lưu trữ %(max)s hoạt động gần nhất của bạn."
+
+#: templates/main/dashboard.html:70
+msgid "Are you sure you want to delete this activity record?"
+msgstr "Bạn có chắc chắn muốn xóa hồ sơ hoạt động này?"
+
+#: templates/main/dashboard.html:72
+msgid "Delete Activity"
+msgstr "Xóa hoạt động"
+
+#: templates/main/dashboard.html:87
+msgid "No recent activity found. Start watching content in Stremio with the addon installed!"
+msgstr "Không tìm thấy hoạt động gần đây. Hãy bắt đầu xem nội dung trên Stremio với addon đã cài đặt!"
+
+#: templates/main/dashboard.html:100
+msgid "Install the addon in Stremio to start using community subtitles:"
+msgstr "Cài đặt addon vào Stremio để bắt đầu sử dụng phụ đề cộng đồng:"
+
+#: templates/main/dashboard.html:107
+msgid "Your Stats"
+msgstr "Thống kê của bạn"
+
+#: templates/main/dashboard.html:112
+msgid "Uploaded Subtitles"
+msgstr "Phụ đề đã tải lên"
+
+#: templates/main/dashboard.html:116 templates/main/selected_subtitles.html:4
+#: templates/main/selected_subtitles.html:9
+msgid "Selected Subtitles"
+msgstr "Phụ đề đã chọn"
+
+#: templates/main/dashboard.html:120
+msgid "Votes Cast"
+msgstr "Số bình chọn"
+
+#: templates/main/index.html:7
+msgid "Stremio Community Subtitles Addon"
+msgstr "Stremio Community Subtitles Addon"
+
+#: templates/main/index.html:10
+msgid "Find, share, and vote on subtitles provided by the community for Stremio. Log in or register to get started and receive your personalized addon installation link."
+msgstr "Tìm kiếm, chia sẻ và bình chọn phụ đề từ cộng đồng cho Stremio. Đăng nhập hoặc đăng ký để bắt đầu và nhận liên kết cài đặt addon cá nhân của bạn."
+
+#: templates/main/index.html:24
+msgid "Find Subtitles"
+msgstr "Tìm phụ đề"
+
+#: templates/main/index.html:25
+msgid "Easily find subtitles for your favorite movies and TV shows directly in Stremio."
+msgstr "Dễ dàng tìm thấy phụ đề cho phim lẻ và phim bộ yêu thích của bạn trực tiếp trong Stremio."
+
+#: templates/main/index.html:33
+msgid "Share Subtitles"
+msgstr "Chia sẻ phụ đề"
+
+#: templates/main/index.html:34
+msgid "Upload and share your subtitles with the community to help others enjoy content in their language."
+msgstr "Tải lên và chia sẻ phụ đề của bạn với cộng đồng để giúp người khác thưởng thức nội dung bằng ngôn ngữ của họ."
+
+#: templates/main/index.html:42
+msgid "Vote on Quality"
+msgstr "Bình chọn chất lượng"
+
+#: templates/main/index.html:43
+msgid "Vote on subtitles to help others find the best quality translations for their viewing experience."
+msgstr "Bình chọn phụ đề để giúp người khác tìm thấy bản dịch chất lượng nhất cho trải nghiệm xem của họ."
+
+#: templates/main/index.html:51
+msgid "How It Works"
+msgstr "Cách thức hoạt động"
+
+#: templates/main/index.html:57
+msgid "Register for an account"
+msgstr "Đăng ký tài khoản"
+
+#: templates/main/index.html:58
+msgid "Install the addon in Stremio using your personal link"
+msgstr "Cài đặt addon vào Stremio bằng liên kết cá nhân của bạn"
+
+#: templates/main/index.html:59
+msgid "Start watching content with community subtitles"
+msgstr "Bắt đầu xem nội dung với phụ đề cộng đồng"
+
+#: templates/main/index.html:60
+msgid "Upload your own subtitles or vote on existing ones"
+msgstr "Tải lên phụ đề của riêng bạn hoặc bình chọn cho các bản dịch hiện có"
+
+#: templates/main/my_subtitles.html:11
+msgid "Manage all subtitles you've submitted to the community."
+msgstr "Quản lý tất cả phụ đề bạn đã gửi cho cộng đồng."
+
+#: templates/main/my_subtitles.html:51
+#: templates/main/selected_subtitles.html:58
+#: templates/main/voted_subtitles.html:56
+msgid "Author:"
+msgstr "Tác giả:"
+
+#: templates/main/my_subtitles.html:65
+#, python-format
+msgid "%(votes)s votes"
+msgstr "%(votes)s bình chọn"
+
+#: templates/main/my_subtitles.html:80
+msgid "Are you sure you want to delete this subtitle?"
+msgstr "Bạn có chắc chắn muốn xóa phụ đề này?"
+
+#: templates/main/my_subtitles.html:82
+#: templates/main/selected_subtitles.html:110
+msgid "Delete"
+msgstr "Xóa"
+
+#: templates/main/my_subtitles.html:104
+msgid "No Subtitles Yet"
+msgstr "Chưa có phụ đề nào"
+
+#: templates/main/my_subtitles.html:105
+msgid "You haven't uploaded any subtitles yet."
+msgstr "Bạn chưa tải lên bất kỳ phụ đề nào."
+
+#: templates/main/my_subtitles.html:107
+msgid "Upload Your First Subtitle"
+msgstr "Tải lên phụ đề đầu tiên của bạn"
+
+#: templates/main/selected_subtitles.html:11
+msgid "View and manage all subtitles you've selected for your videos."
+msgstr "Xem và quản lý tất cả phụ đề bạn đã chọn cho video của mình."
+
+#: templates/main/selected_subtitles.html:21
+#: templates/main/selected_subtitles.html:128
+msgid "My Selected Subtitles"
+msgstr "Phụ đề tôi đã chọn"
+
+#: templates/main/selected_subtitles.html:60
+msgid "Votes:"
+msgstr "Lượt bình chọn:"
+
+#: templates/main/selected_subtitles.html:97
+msgid "Selected:"
+msgstr "Được chọn:"
+
+#: templates/main/selected_subtitles.html:108
+msgid "Are you sure you want to delete this selection?"
+msgstr "Bạn có chắc chắn muốn xóa lựa chọn này không?"
+
+#: templates/main/selected_subtitles.html:132
+msgid "No Selections Yet"
+msgstr "Chưa có lựa chọn nào"
+
+#: templates/main/selected_subtitles.html:133
+msgid "You haven't selected any subtitles yet."
+msgstr "Bạn chưa chọn phụ đề nào cả."
+
+#: templates/main/upload_subtitle.html:12
+msgid "Advanced Users"
+msgstr "Người dùng nâng cao"
+
+#: templates/main/upload_subtitle.html:16
+msgid "Advanced Upload Mode:"
+msgstr "Chế độ tải lên nâng cao:"
+
+#: templates/main/upload_subtitle.html:16
+msgid "This feature is for experienced users who want to upload subtitles without having an activity entry in their dashboard."
+msgstr "Tính năng này dành cho người dùng có kinh nghiệm muốn tải lên phụ đề mà không cần có mục hoạt động trong bảng điều khiển."
+
+#: templates/main/upload_subtitle.html:18
+msgid "You'll need to provide the Content ID manually. To upload subtitles for what you are watching right now, open the activity entry for it from the"
+msgstr "Bạn sẽ cần cung cấp Content ID theo cách thủ công. Để tải lên phụ đề cho nội dung bạn đang xem ngay bây giờ, hãy mở mục hoạt động của nó từ"
+
+#: templates/main/upload_subtitle.html:23
+msgid "Upload a subtitle file for"
+msgstr "Tải lên tệp phụ đề cho"
+
+#: templates/main/upload_subtitle.html:39
+msgid "Subtitle Information"
+msgstr "Thông tin phụ đề"
+
+#: templates/main/upload_subtitle.html:50
+msgid "Content Identification"
+msgstr "Nhận dạng nội dung"
+
+#: templates/main/upload_subtitle.html:51
+msgid "Provide the Content ID and type for the content you want to upload subtitles for:"
+msgstr "Cung cấp Content ID và loại cho nội dung bạn muốn tải lên phụ đề:"
+
+#: templates/main/upload_subtitle.html:53
+msgid "IMDB ID:"
+msgstr "IMDB ID:"
+
+#: templates/main/upload_subtitle.html:53
+#: templates/main/upload_subtitle.html:54
+msgid "Format like"
+msgstr "Định dạng kiểu"
+
+#: templates/main/upload_subtitle.html:53
+msgid "(for movies and TV series)"
+msgstr "(cho phim lẻ và phim bộ)"
+
+#: templates/main/upload_subtitle.html:54
+msgid "Kitsu ID:"
+msgstr "Kitsu ID:"
+
+#: templates/main/upload_subtitle.html:54
+msgid "(for anime)"
+msgstr "(cho anime)"
+
+#: templates/main/upload_subtitle.html:62
+msgid "Enter IMDB ID (tt1234567) or Kitsu ID (kitsu:12345)"
+msgstr "Nhập IMDB ID (tt1234567) hoặc Kitsu ID (kitsu:12345)"
+
+#: templates/main/upload_subtitle.html:71
+msgid "Season number (default: 1). Ignore for kitsu"
+msgstr "Số mùa (mặc định: 1). Bỏ qua đối với kitsu"
+
+#: templates/main/upload_subtitle.html:74
+msgid "Episode number (required for series)"
+msgstr "Số tập (bắt buộc đối với phim bộ)"
+
+#: templates/main/upload_subtitle.html:84
+msgid "Enter 'utf8' (default), 'auto' for automatic detection, or a specific encoding like 'cp1250', 'latin1', etc."
+msgstr "Nhập 'utf8' (mặc định), 'auto' để tự động phát hiện, hoặc một bảng mã cụ thể như 'cp1250', 'latin1', v.v."
+
+#: templates/main/upload_subtitle.html:85
+msgid "Select FPS only for subtitle formats that use frames. Leave as 'Auto' if unsure."
+msgstr "Chỉ chọn FPS cho các định dạng phụ đề sử dụng khung hình. Để 'Auto' nếu không chắc chắn."
+
+#: templates/main/upload_subtitle.html:111
+msgid "Title:"
+msgstr "Tiêu đề:"
+
+#: templates/main/upload_subtitle.html:157
+msgid "How to Find Content IDs"
+msgstr "Cách tìm Content ID"
+
+#: templates/main/upload_subtitle.html:160
+msgid "IMDB ID (Movies & TV Shows):"
+msgstr "IMDB ID (Phim lẻ & Phim bộ):"
+
+#: templates/main/upload_subtitle.html:162
+#: templates/main/upload_subtitle.html:169
+msgid "Go to"
+msgstr "Truy cập"
+
+#: templates/main/upload_subtitle.html:163
+msgid "Search for your content"
+msgstr "Tìm kiếm nội dung của bạn"
+
+#: templates/main/upload_subtitle.html:164
+msgid "Copy the ID from URL (e.g.,"
+msgstr "Sao chép ID từ URL (VD:"
+
+#: templates/main/upload_subtitle.html:167
+msgid "Kitsu ID (Anime):"
+msgstr "Kitsu ID (Anime):"
+
+#: templates/main/upload_subtitle.html:170
+msgid "Search for your anime"
+msgstr "Tìm kiếm anime của bạn"
+
+#: templates/main/upload_subtitle.html:171
+msgid "Investigate url of the thumbnail"
+msgstr "Kiểm tra URL của ảnh thu nhỏ (thumbnail)"
+
+#: templates/main/upload_subtitle.html:172
+msgid "Copy the ID from thumbnail's"
+msgstr "Sao chép ID từ thumbnail"
+
+#: templates/main/upload_subtitle.html:172
+msgid "and add"
+msgstr "và thêm"
+
+#: templates/main/upload_subtitle.html:172
+msgid "prefix"
+msgstr "tiền tố"
+
+#: templates/main/upload_subtitle.html:173
+msgid "Example:"
+msgstr "Ví dụ:"
+
+#: templates/main/upload_subtitle.html:182
+msgid "Subtitle Guidelines"
+msgstr "Hướng dẫn về phụ đề"
+
+#: templates/main/upload_subtitle.html:186
+msgid "Supported formats: SRT, SUB, ASS, SSA, TXT"
+msgstr "Định dạng hỗ trợ: SRT, SUB, ASS, SSA, TXT"
+
+#: templates/main/upload_subtitle.html:187
+msgid "Maximum file size: 2MB"
+msgstr "Dung lượng tệp tối đa: 2MB"
+
+#: templates/main/upload_subtitle.html:188
+msgid "Ensure proper timing and formatting"
+msgstr "Đảm bảo thời gian và định dạng chính xác"
+
+#: templates/main/upload_subtitle.html:189
+msgid "Avoid hardcoded advertisements"
+msgstr "Tránh các quảng cáo được gắn cứng vào phụ đề"
+
+#: templates/main/upload_subtitle.html:190
+msgid "Respect copyright and intellectual property"
+msgstr "Tôn trọng bản quyền và sở hữu trí tuệ"
+
+#: templates/main/upload_subtitle.html:192
+msgid "Advanced:"
+msgstr "Nâng cao:"
+
+#: templates/main/upload_subtitle.html:192
+msgid "No video hash association"
+msgstr "Không liên kết với mã Hash của video"
+
+#: templates/main/upload_subtitle.html:204
+msgid "Back to Home"
+msgstr "Quay lại Trang chủ"
+
+#: templates/main/upload_subtitle.html:207
+msgid "Back to Content"
+msgstr "Quay lại Nội dung"
+
+#: templates/main/voted_subtitles.html:4 templates/main/voted_subtitles.html:9
+msgid "Voted Subtitles"
+msgstr "Phụ đề đã bình chọn"
+
+#: templates/main/voted_subtitles.html:11
+msgid "View and manage all your subtitle votes."
+msgstr "Xem và quản lý tất cả các bình chọn phụ đề của bạn."
+
+#: templates/main/voted_subtitles.html:21
+#: templates/main/voted_subtitles.html:100
+msgid "My Voted Subtitles"
+msgstr "Phụ đề tôi đã bình chọn"
+
+#: templates/main/voted_subtitles.html:58
+msgid "Total Votes:"
+msgstr "Tổng bình chọn:"
+
+#: templates/main/voted_subtitles.html:73
+msgid "Your Vote:"
+msgstr "Bình chọn của bạn:"
+
+#: templates/main/voted_subtitles.html:76
+msgid "Voted:"
+msgstr "Đã bình chọn:"
+
+#: templates/main/voted_subtitles.html:104
+msgid "No Votes Yet"
+msgstr "Chưa có bình chọn nào"
+
+#: templates/main/voted_subtitles.html:105
+msgid "You haven't voted on any subtitles yet."
+msgstr "Bạn chưa bình chọn cho phụ đề nào."
+
+#: templates/providers/napisy24_settings.html:4
+msgid "is a Polish subtitle database. No authentication required - just click Connect to activate."
+msgstr "là một cơ sở dữ liệu phụ đề tiếng Ba Lan. Không yêu cầu xác thực - chỉ cần nhấn Kết nối để kích hoạt."
+
+#: templates/providers/opensubtitles_form.html:5
+msgid "Your OpenSubtitles.com username"
+msgstr "Tên đăng nhập OpenSubtitles.com của bạn"
+
+#: templates/providers/opensubtitles_form.html:14
+msgid "Your OpenSubtitles.com password"
+msgstr "Mật khẩu OpenSubtitles.com của bạn"
+
+#: templates/providers/opensubtitles_form.html:16
+msgid "Your password is transmitted securely and stored encrypted."
+msgstr "Mật khẩu của bạn được truyền tải an toàn và được lưu trữ dưới dạng mã hóa."
+
+#: templates/providers/opensubtitles_form.html:22
+msgid "Important:"
+msgstr "Quan trọng:"
+
+#: templates/providers/opensubtitles_form.html:22
+msgid "OpenSubtitles has download limits."
+msgstr "OpenSubtitles có giới hạn lượt tải xuống."
+
+#: templates/providers/opensubtitles_form.html:23
+msgid "Free accounts: 200 downloads/day. VIP accounts: Unlimited."
+msgstr "Tài khoản miễn phí: 200 lượt tải/ngày. Tài khoản VIP: Không giới hạn."
+
+#: templates/providers/subdl_form.html:3
+msgid "SubDL API Key"
+msgstr "SubDL API Key"
+
+#: templates/providers/subdl_form.html:5
+msgid "Your SubDL API key"
+msgstr "SubDL API key của bạn"
+
+#: templates/providers/subdl_form.html:7
+msgid "Get your API key from"
+msgstr "Lấy API key từ"
+
+#: templates/providers/subdl_form.html:7
+msgid "SubDL API page"
+msgstr "Trang SubDL API"
+
+#: templates/providers/subdl_form.html:18
+msgid "SubDL returns ZIP files that may contain ASS format. This option will always add an ass entry in Stremio, even if there are no .ass subtitles in the .zip."
+msgstr "SubDL trả về tệp ZIP có thể chứa định dạng ASS. Tùy chọn này sẽ luôn thêm một mục ASS trong Stremio, ngay cả khi không có phụ đề .ass trong tệp .zip đó."
+
+#: templates/providers/subdl_form.html:25
+#: templates/providers/subsource_form.html:23
+msgid "Note:"
+msgstr "Lưu ý:"
+
+#: templates/providers/subdl_form.html:25
+msgid "SubDL offers free API access with rate limits. Check their website for current limits and pricing."
+msgstr "SubDL cung cấp quyền truy cập API miễn phí với giới hạn tốc độ. Kiểm tra trang web của họ để biết các giới hạn và giá cả hiện tại."
+
+#: templates/providers/subsource_form.html:3
+msgid "SubSource API Key"
+msgstr "SubSource API Key"
+
+#: templates/providers/subsource_form.html:5
+msgid "Your SubSource API key"
+msgstr "SubSource API key của bạn"
+
+#: templates/providers/subsource_form.html:7
+msgid "SubSource API page"
+msgstr "Trang SubSource API"
+
+#: templates/providers/subsource_form.html:16
+msgid "SubSource returns ZIP files that may contain ASS format. This option will always add an ass entry in Stremio, even if there are no .ass subtitles in the .zip."
+msgstr "SubSource trả về tệp ZIP có thể chứa định dạng ASS. Tùy chọn này sẽ luôn thêm một mục ASS trong Stremio, ngay cả khi không có phụ đề .ass trong tệp .zip đó."
+
+#: templates/providers/subsource_form.html:23
+msgid "SubSource offers API access for subtitle downloads. Check their website for current limits."
+msgstr "SubSource cung cấp quyền truy cập API để tải xuống phụ đề. Kiểm tra trang web của họ để biết các giới hạn hiện tại."
+

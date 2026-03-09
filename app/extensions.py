@@ -4,6 +4,7 @@ from sqlalchemy.orm import declarative_base
 from quart_auth import QuartAuth
 from quart_cors import cors as quart_cors
 from quart_wtf import CSRFProtect
+from quart_babel import Babel
 
 # SQLAlchemy async
 Base = declarative_base()
@@ -22,14 +23,22 @@ def init_async_db(app):
     elif database_url.startswith('sqlite:///'):
         database_url = database_url.replace('sqlite:///', 'sqlite+aiosqlite:///')
     
+    connect_args = {}
+    if database_url.startswith('mysql+aiomysql://'):
+        connect_args = {
+            'connect_timeout': 10,
+        }
+    
     async_engine = create_async_engine(
         database_url,
         echo=app.config.get('SQLALCHEMY_ECHO', False),
-        pool_size=app.config.get('SQLALCHEMY_POOL_SIZE', 3),
-        max_overflow=app.config.get('SQLALCHEMY_MAX_OVERFLOW', 5),
-        pool_pre_ping=True,
-        pool_recycle=300,
-        pool_timeout=5,
+        pool_size=app.config.get('SQLALCHEMY_POOL_SIZE', 5),
+        max_overflow=app.config.get('SQLALCHEMY_MAX_OVERFLOW', 10),
+        pool_pre_ping=app.config.get('SQLALCHEMY_POOL_PRE_PING', False),
+        pool_recycle=app.config.get('SQLALCHEMY_POOL_RECYCLE', 150),
+        pool_timeout=app.config.get('SQLALCHEMY_POOL_TIMEOUT', 30),
+        pool_reset_on_return='rollback',
+        connect_args=connect_args,
     )
     
     async_session_maker = async_sessionmaker(
@@ -42,6 +51,7 @@ def init_async_db(app):
 
 auth_manager = QuartAuth()
 csrf = CSRFProtect()
+babel = Babel()
 
 def init_cors(app):
     cors_origins = app.config.get('CORS_ORIGINS', '*')

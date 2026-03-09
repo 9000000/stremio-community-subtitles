@@ -1,0 +1,15 @@
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN
+
+files:
+  - source: /translations/messages.pot
+    translation: /translations/%two_letters_code%/LC_MESSAGES/messages.po
+    update_option: update_as_unapproved
+    languages_mapping:
+      two_letters_code:
+        pt-PT: pt
+        pt-BR: pt_BR
+        zh-CN: zh
+        ar-SA: ar
+        he-IL: he
+        vi-VN: vi
